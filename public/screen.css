@@ -6,7 +6,26 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  font-family: 'Lato';
 }
+
+.btn {
+  color:#000;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: 900 1em/100% 'Lato', helvetica, sans-serif;
+  padding: 10px 20px 10px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.btn:hover { color:#000; }
+.primary { background: #ffed55; border:1px solid #ffd900; }
+.primary:hover { background: #fff885; }
+.primary:active { background: #ffd800; }
 
 .fulcrum-live .main-headline {
   width: 100%;
@@ -79,6 +98,12 @@ section.share { margin-bottom: 10px; width: 300px; }
 .landing .social-share .emailshare { background: #777; }
 /* end social*/
 
+section.time-block {
+  display: flex;
+}
+
+.time-range { min-width: 175px; }
+/* Media Queries */
 @media (max-width: 1230px) {
   .fulcrum-live .contents { margin-left: 5%; }
  }
