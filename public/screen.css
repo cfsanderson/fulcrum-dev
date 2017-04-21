@@ -1,69 +1,132 @@
+/* DO NOT TRANSFER TO FULCRUMAPP.COM FROM HERE... */
+
 @import '_utility.css';
 
 html {
-  height: 100%;
+  min-height: 1000px;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  min-height: 2000px;
   font: 16px / 1 "Lato";
   font-family: 'Lato';
 }
 
-.btn {
-  color:#000;
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  font: 900 1em/100% 'Lato', helvetica, sans-serif;
-  padding: 10px 20px 10px 20px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.btn:hover { color:#000; }
-.primary { background: #ffed55; border:1px solid #ffd900; }
-.primary:hover { background: #fff885; }
-.primary:active { background: #ffd800; }
+/* ...TO HERE - DO NOT TRANSFER TO FULCRUMAPP.COM */
 
 .fulcrum-live .main-headline {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom right, rgba(252, 140, 14, 0.7), rgba(251, 3, 0,  0.8), rgba(147, 6, 6, 0.8)), url('/assets/img/fulcrum-live/fulcrum-live-globe-background-01.jpg') center center no-repeat;
+  background: linear-gradient(to bottom right, rgba(252, 140, 14, 0.7), rgba(251, 3, 0, 0.8), rgba(147, 6, 6, 0.8)), url('/assets/img/fulcrum-live/fulcrum-live-globe-background-01.jpg') center center no-repeat;
   background-size: cover;
-  /*display: flex;*/
 }
-.logo-cta {
+
+.fulcrum-live .logo-cta {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
-.inner-nav {
+
+.fulcrum-live .fulcrum-live-cta {
+  width: 250px;
+  font-size: 1.5em;
+}
+
+.fulcrum-live .inner-nav {
   color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 25px 85px;
+  max-width: 768px;
+  margin: auto;
 }
 
-.inner-nav a {
+.fulcrum-live .inner-nav a {
   color: inherit;
   font-family: "Open Sans Condensed";
+  font-size: 1.75em;
   text-decoration: none;
   cursor: pointer;
 }
-.fulcrum-live .upper { overflow: hidden; height: 560px; }
-.fulcrum-live .hero-mobile { display: none; }
-.fulcrum-live .hero-top { margin-bottom: -49px; margin-top: 30px; }
-/*.fulcrum-live .contents { width: 280px; float: left; margin-left: 10%; position: relative; margin-top:30px; }*/
-/*.fulcrum-live .contents li { list-style: disc outside; margin-left: 20px; padding-bottom: 5px; }*/
-.fulcrum-live h2 { font-size: 24px; text-align: left; margin-bottom: 10px; }
 
-.fulcrum-live .landing-footer { text-align: center; }
-.fulcrum-live .landing-footer p { font-size: 12px; margin: 0; }
+.fulcrum-live .category-heading {
+  margin: 45px 0;
+  text-align: left;
+}
+
+.fulcrum-live .time-day h2 {
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  background: linear-gradient(to right, rgba(147, 6, 6, 0.8), rgba(251, 3, 0, 0.8), rgba(252, 140, 14, 0.7));
+}
+
+.fulcrum-live .time-block {
+  display: flex;
+  margin: 10px 0;
+  border-top: solid 1px rgb(42, 42, 42);
+}
+
+.fulcrum-live .time-block .description {
+  padding: 10px;
+}
+
+.fulcrum-live .time-block .description h3 {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.fulcrum-live .time-block .description p {
+  padding: 10px;
+}
+
+.fulcrum-live .time-range {
+  min-width: 175px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(42, 42, 42);
+  color: #fff;
+  font-family: "Open Sans Condensed";
+}
+
+.fulcrum-live .upper {
+  overflow: hidden;
+}
+
+.fulcrum-live .hero-top {
+  margin-bottom: -49px;
+  margin-top: 30px;
+}
+
+.fulcrum-live .contents {
+  margin: auto;
+  max-width: 960px;
+}
+
+.fulcrum-live .contents li {
+  list-style: disc outside;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+/*.fulcrum-live h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}*/
+
+.fulcrum-live .landing-footer {
+  text-align: center;
+}
+
+.fulcrum-live .landing-footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
 .fulcrum-live .triangle {
   display: block;
   width: 0;
@@ -75,43 +138,55 @@ body {
 }
 
 /* Social */
-section.share { margin-bottom: 10px; width: 300px; }
 
-.landing .social-share { width: 100%;}
-.landing .social-share li { float: left; width: 20%;}
-.landing .social-share li a{
-  text-decoration: none!important;
-    display: inline-block;
-    margin: 0 0 10px;
-    font-size: 11px;
-    font-family: "Open Sans",sans-serif;
-    font-weight: 400;
-    border-radius: 3px;
-    color: #fff!important;
-    border: 1px solid #ccc;
-    box-shadow: 0 1px 0 rgba(0,0,0,.08);
-    text-shadow: none;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
+section.share {
+  margin-bottom: 10px;
+  width: 300px;
 }
-.landing .social-share li a .fa { font-size: 20px; margin-top: 2px; }
+
+.landing .social-share { width: 100%; }
+
+.landing .social-share li {
+  float: left;
+  width: 20%;
+}
+
+.landing .social-share li a {
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 0 0 10px;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border-radius: 3px;
+  color: #fff !important;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  text-shadow: none;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.landing .social-share li a .fa {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
 .landing .social-share .tweet { background: #26c4f1; }
 .landing .social-share .fblike { background: #306199; }
 .landing .social-share .lishare { background: #007bb6; }
 .landing .social-share .plus { background: #e93f2e; }
 .landing .social-share .emailshare { background: #777; }
-/* end social*/
 
-section.time-block {
-  display: flex;
-}
+/* end social */
 
-.time-range { min-width: 175px; }
 /* Media Queries */
+
 @media (max-width: 1230px) {
   .fulcrum-live .contents { margin-left: 5%; }
- }
+}
+
 @media (max-width: 1030px) {
   .fulcrum-live .upper { height: auto; }
   .fulcrum-live .contents { margin-left: 2%; }
@@ -119,17 +194,28 @@ section.time-block {
 
 @media (max-width: 978px) {
 }
+
 @media (max-width: 756px) {
-  .fulcrum-live .hero-mobile { display: block; margin-top: -40px; }
-  .fulcrum-live .main-headline  h1 { font-size: 34px; line-height: 34px; }
+  .fulcrum-live .hero-mobile {
+    display: block;
+    margin-top: -40px;
+  }
+
+  .fulcrum-live .main-headline h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
   .fulcrum-live .contents { margin-left: 4%; }
 }
+
 @media (max-width: 626px) {
   .fulcrum-live .contents,
   .fulcrum-live #native-form button { width: 90%; }
 }
+
 @media (max-width: 480px) {
-  .fulcrum-live .contents,
 }
+
 @media (max-width: 320px) {
 }
