@@ -1,3 +1,5 @@
+@import '_utility.css';
+
 html {
   height: 100%;
 }
@@ -5,7 +7,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 "Lato";
   font-family: 'Lato';
 }
 
@@ -48,13 +50,16 @@ body {
 }
 
 .inner-nav a {
-  color: #fff;
+  color: inherit;
+  font-family: "Open Sans Condensed";
+  text-decoration: none;
+  cursor: pointer;
 }
 .fulcrum-live .upper { overflow: hidden; height: 560px; }
 .fulcrum-live .hero-mobile { display: none; }
 .fulcrum-live .hero-top { margin-bottom: -49px; margin-top: 30px; }
-.fulcrum-live .contents { width: 280px; float: left; margin-left: 10%; position: relative; margin-top:30px; }
-.fulcrum-live .contents li { list-style: disc outside; margin-left: 20px; padding-bottom: 5px; }
+/*.fulcrum-live .contents { width: 280px; float: left; margin-left: 10%; position: relative; margin-top:30px; }*/
+/*.fulcrum-live .contents li { list-style: disc outside; margin-left: 20px; padding-bottom: 5px; }*/
 .fulcrum-live h2 { font-size: 24px; text-align: left; margin-bottom: 10px; }
 
 .fulcrum-live .landing-footer { text-align: center; }
@@ -109,7 +114,6 @@ section.time-block {
  }
 @media (max-width: 1030px) {
   .fulcrum-live .upper { height: auto; }
-  .fulcrum-live .hero-image { margin-left: -180px; }
   .fulcrum-live .contents { margin-left: 2%; }
 }
 
