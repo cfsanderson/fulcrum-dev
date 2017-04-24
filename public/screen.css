@@ -13,6 +13,15 @@ body {
   font-family: 'Lato';
 }
 
+.fulcrum-live h1,
+h2,
+h3,
+h4,
+p,
+a, {
+  color: rgb(42, 42, 42);
+}
+
 /* ...TO HERE - DO NOT TRANSFER TO FULCRUMAPP.COM */
 
 .fulcrum-live .main-headline {
@@ -103,6 +112,17 @@ body {
   max-width: 960px;
 }
 
+.fulcrum-live .schedule h2, h3, p {
+  color: rgb(42, 42, 42);
+}
+
+.fulcrum-live .time-day h2 { color: #fff; }
+
+.fulcrum-live .time-range p {
+  color: #fff;
+  font-size: 1em;
+}
+
 .fulcrum-live .middle {
   width: 100%;
   height: 100%;
@@ -113,7 +133,7 @@ body {
 /* Speakers section */
 
 .fulcrum-live .gradient-layer {
-  background: linear-gradient(to right, rgba(147, 6, 6, 0.8), rgba(251, 3, 0, 0.8), rgba(252, 140, 14, 0.7));
+  background: linear-gradient(to top left, rgba(252, 140, 14, 0.7), rgba(251, 3, 0, 0.8), rgba(147, 6, 6, 0.8));
   margin-bottom: 45px;
 }
 
@@ -227,7 +247,7 @@ section.share {
 /* Media Queries */
 
 @media (max-width: 1230px) {
-  .fulcrum-live .schedule { margin-left: 5%; }
+  /* .fulcrum-live .schedule { margin-left: 5%; } */
 }
 
 @media (max-width: 1030px) {
@@ -236,28 +256,57 @@ section.share {
 }
 
 @media (max-width: 978px) {
+  /* Register button stacks with logo and becomes width of the logo */
+  .fulcrum-live .logo-cta { flex-direction: column; }
+
+  .fulcrum-live .fulcrum-live-header-logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .fulcrum-live .fulcrum-live-cta { width: 100%; }
+
+  .fulcrum-live .schedule {
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* main contents scale with logo? */
 }
 
 @media (max-width: 756px) {
-  .fulcrum-live .hero-mobile {
-    display: block;
-    margin-top: -40px;
-  }
-
   .fulcrum-live .main-headline h1 {
     font-size: 34px;
     line-height: 34px;
   }
 
-  .fulcrum-live .schedule { margin-left: 4%; }
+  .fulcrum-live .inner-nav {
+    padding: 25px 0;
+  }
+
+  .fulcrum-live .schedule {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 626px) {
-  .fulcrum-live .schedule,
-  .fulcrum-live #native-form button { width: 90%; }
+  .fulcrum-live .time-block {
+    flex-direction: column;
+  }
+
+  .fulcrum-live .time-block .description {
+    padding: 10px 0;
+  }
 }
 
 @media (max-width: 480px) {
+  .fulcrum-live .top-content { width: 100%; }
+
+  /* sub-navigation style change */
 }
 
 @media (max-width: 320px) {
