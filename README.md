@@ -12,7 +12,7 @@ TODOs (4/24)
   - [x] register CTA stacks vertically between main logo and date < @980px
   - [ ] sub-nav styling
     - [ ] font-size changes smaller widths
-    - [ ] 
+    - [ ] scale width correctly
 - [x] *_Schedule section_*
   - [x] timestamp move above description @626 px? (e.g. http://convergese.com/2016/schedule.php)
   - [x] fix right side margin
