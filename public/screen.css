@@ -24,6 +24,12 @@ body {
   background-size: cover;
 }
 
+.fulcrum-live .fulcrum-live-header-logo-02 {
+  display: none;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .fulcrum-live .logo-cta {
   display: flex;
   justify-content: space-between;
@@ -258,7 +264,7 @@ section.share {
   /* Register button stacks with logo and becomes width of the logo */
   .fulcrum-live .logo-cta { flex-direction: column; }
 
-  .fulcrum-live .fulcrum-live-header-logo {
+  .fulcrum-live .fulcrum-live-header-logo-01 {
     width: 100%;
     padding-bottom: 20px;
   }
@@ -332,9 +338,14 @@ section.share {
   .fulcrum-live .time-block .description {
     padding: 10px 0;
   }
+
 }
 
 @media (max-width: 480px) {
+  .fulcrum-live .fulcrum-live-header-logo-01 { display: none; }
+
+  .fulcrum-live .fulcrum-live-header-logo-02 { display: unset; }
+
   .fulcrum-live .inner-nav a { font-size: 1.2em; }
 }
 
