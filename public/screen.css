@@ -79,11 +79,15 @@ body {
   max-width: 960px;
 }
 
-.fulcrum-live .schedule h2, h3, p {
+.fulcrum-live .schedule h2,
+h3,
+p {
   color: rgb(42, 42, 42);
 }
 
-.fulcrum-live .schedule h2, .all-speakers h2 { font-size: 2.5em; }
+.fulcrum-live .schedule h2,
+.all-speakers h2,
+.about h2 { font-size: 2.5em; }
 
 .fulcrum-live .time-day h2 {
   font-size: 1.5em;
@@ -139,7 +143,6 @@ body {
 
 .fulcrum-live .gradient-layer {
   background: linear-gradient(to top left, rgba(252, 140, 14, 0.7), rgba(251, 3, 0, 0.8), rgba(147, 6, 6, 0.8));
-  margin-bottom: 45px;
 }
 
 .fulcrum-live .all-speakers {
@@ -179,13 +182,20 @@ body {
 
 /* About section */
 
+.fulcrum-live .about h2,
+h3,
+p {
+  color: rgb(42, 42, 42);
+  text-align: left;
+}
+
 .fulcrum-live .about {
   margin: auto;
   max-width: 960px;
-  padding: 45px 0;
 }
 
 /* Footer */
+
 .fulcrum-live .landing-footer {
   text-align: center;
 }
@@ -257,11 +267,9 @@ section.share {
 
 @media (max-width: 1030px) {
   .fulcrum-live .upper { height: auto; }
-  /*.fulcrum-live .schedule { margin-left: 2%; }*/
 }
 
 @media (max-width: 978px) {
-  /* Register button stacks with logo and becomes width of the logo */
   .fulcrum-live .logo-cta { flex-direction: column; }
 
   .fulcrum-live .fulcrum-live-header-logo-01 {
@@ -271,15 +279,15 @@ section.share {
 
   .fulcrum-live .fulcrum-live-cta { width: 100%; }
 
-  .fulcrum-live .schedule, .all-speakers {
+  .fulcrum-live .schedule,
+  .all-speakers,
+  .about {
     width: 730px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
   }
-
-  /* main contents scale with logo? */
 }
 
 @media (max-width: 756px) {
@@ -297,7 +305,8 @@ section.share {
     padding: 25px 0;
   }
 
-  .fulcrum-live .schedule {
+  .fulcrum-live .schedule,
+  .about {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px 45px;
@@ -306,6 +315,8 @@ section.share {
   .fulcrum-live .schedule h2 { text-align: center; }
 
   .fulcrum-live .all-speakers h2 { text-align: center; }
+
+  .fulcrum-live .about h2 { text-align: center; }
 
   .fulcrum-live .all-speakers {
     width: 100%;
@@ -320,7 +331,10 @@ section.share {
     padding: 20px 0;
   }
 
-  .fulcrum-live .speaker-bio { padding: 45px 10%; }
+  .fulcrum-live .speaker-bio,
+  .about-text,
+  .location,
+  .register { padding: 45px 10%; }
 
   .fulcrum-live .speaker-bio h4 { text-align: center; }
 
@@ -338,7 +352,6 @@ section.share {
   .fulcrum-live .time-block .description {
     padding: 10px 0;
   }
-
 }
 
 @media (max-width: 480px) {
