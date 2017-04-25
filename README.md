@@ -21,7 +21,7 @@ TODOs (4/24)
 - [ ] *_About section_*
   - [ ] finish mockup
   - [ ] Location sub-section
-    - [ ] interactive map
+    - [ ] add maps
     - [ ] bulleted list of points of interest
   - [ ] Register sub-section
     - [x] add CTA

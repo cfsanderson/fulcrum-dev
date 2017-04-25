@@ -13,6 +13,8 @@ body {
   font-family: 'Lato';
 }
 
+p { font-weight: 300; }
+
 /* ...TO HERE - DO NOT TRANSFER TO FULCRUMAPP.COM */
 
 /* main header section */
@@ -24,9 +26,8 @@ body {
   background-size: cover;
 }
 
-.fulcrum-live .fulcrum-live-header-logo-02 {
-  display: none;
-  width: 100%;
+.fulcrum-live .fulcrum-live-header-logo {
+  width: 70%;
   padding-bottom: 20px;
 }
 
@@ -37,7 +38,8 @@ body {
   padding: 20px 0;
 }
 
-.fulcrum-live .fulcrum-live-cta {
+.fulcrum-live .fulcrum-live-cta,
+.fulcrum-live-cta-bottom {
   width: 250px;
   font-size: 1.5em;
 }
@@ -194,6 +196,42 @@ p {
   max-width: 960px;
 }
 
+.fulcrum-live #hotel-map {
+  height: 200px;
+  width: 100%;
+  background: url('/assets/img/fulcrum-live/map.png') center center no-repeat;
+}
+
+.fulcrum-live .location {
+  padding: 45px 0;
+}
+
+.fulcrum-live .location h3 {
+  padding-bottom: 25px;
+}
+
+.fulcrum-live .location ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.fulcrum-live .location li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.fulcrum-live .location li a {
+  padding: 25px 0;
+}
+.fulcrum-live .register h3 { padding-bottom: 25px; }
+
+.fulcrum-live .cta-bottom {
+  text-align: center;
+  padding: 45px 0;
+}
+
 /* Footer */
 
 .fulcrum-live .landing-footer {
@@ -211,7 +249,7 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 27px solid #ff0000;
+  border-bottom: 27px solid #f00;
   margin: 0 auto 15px;
 }
 
@@ -261,10 +299,6 @@ section.share {
 
 /* Media Queries */
 
-@media (max-width: 1230px) {
-  /* .fulcrum-live .schedule { margin-left: 5%; } */
-}
-
 @media (max-width: 1030px) {
   .fulcrum-live .upper { height: auto; }
 }
@@ -272,12 +306,13 @@ section.share {
 @media (max-width: 978px) {
   .fulcrum-live .logo-cta { flex-direction: column; }
 
-  .fulcrum-live .fulcrum-live-header-logo-01 {
+  .fulcrum-live .fulcrum-live-header-logo {
     width: 100%;
     padding-bottom: 20px;
   }
 
-  .fulcrum-live .fulcrum-live-cta { width: 100%; }
+  .fulcrum-live .fulcrum-live-cta,
+  .fulcrum-live-cta-bottom { width: 100%; }
 
   .fulcrum-live .schedule,
   .all-speakers,
@@ -334,7 +369,8 @@ section.share {
   .fulcrum-live .speaker-bio,
   .about-text,
   .location,
-  .register { padding: 45px 10%; }
+  .register,
+  .location ul { padding: 45px 10%; }
 
   .fulcrum-live .speaker-bio h4 { text-align: center; }
 
@@ -342,9 +378,18 @@ section.share {
     height: 250px;
     width: 250px;
   }
+
+  .fulcrum-live .location h3,
+  .register h3 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 626px) {
+  .fulcrum-live .top-content {
+    height: 100vh;
+  }
+
   .fulcrum-live .time-block {
     flex-direction: column;
   }
@@ -355,12 +400,5 @@ section.share {
 }
 
 @media (max-width: 480px) {
-  .fulcrum-live .fulcrum-live-header-logo-01 { display: none; }
-
-  .fulcrum-live .fulcrum-live-header-logo-02 { display: unset; }
-
   .fulcrum-live .inner-nav a { font-size: 1.2em; }
-}
-
-@media (max-width: 320px) {
 }
