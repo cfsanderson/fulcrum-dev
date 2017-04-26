@@ -89,7 +89,8 @@ p {
 
 .fulcrum-live .schedule h2,
 .all-speakers h2,
-.about h2 { font-size: 2.5em; }
+.about-section h2,
+.location-section h2 { font-size: 2.5em; }
 
 .fulcrum-live .time-day h2 {
   font-size: 1.5em;
@@ -181,18 +182,18 @@ p {
   padding-bottom: 25px;
 }
 
-/* About section */
+/* Location section */
 
-.fulcrum-live .about-gradient { background-color: rgba(250, 250, 250, 0.75); }
+.fulcrum-live .location-gradient { background-color: rgba(250, 250, 250, 0.75); }
 
-.fulcrum-live .about h2,
+.fulcrum-live .location-section h2,
 h3,
 p {
   color: rgb(42, 42, 42);
   text-align: left;
 }
 
-.fulcrum-live .about {
+.fulcrum-live .about-section, .location-section {
   margin: auto;
   max-width: 960px;
 }
@@ -317,7 +318,8 @@ section.share {
 
   .fulcrum-live .schedule,
   .all-speakers,
-  .about {
+  .about-section,
+  .location-section {
     width: 730px;
     margin: 0 auto;
     display: flex;
@@ -342,17 +344,25 @@ section.share {
   }
 
   .fulcrum-live .schedule,
-  .about {
+  .location-section {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px 45px;
+  }
+
+  .about-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
   .fulcrum-live .schedule h2 { text-align: center; }
 
   .fulcrum-live .all-speakers h2 { text-align: center; }
 
-  .fulcrum-live .about h2 { text-align: center; }
+  .fulcrum-live .about-section h2 { text-align: center; }
+
+  .fulcrum-live .location-section h2 { text-align: center; }
 
   .fulcrum-live .all-speakers {
     width: 100%;
@@ -368,9 +378,9 @@ section.share {
   }
 
   .fulcrum-live .speaker-bio,
-  .about-text,
   .location,
   .register,
+  .about-section,
   .location ul { padding: 45px 10%; }
 
   .fulcrum-live .speaker-bio h4 { text-align: center; }
