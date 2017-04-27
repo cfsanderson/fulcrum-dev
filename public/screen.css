@@ -397,7 +397,7 @@ section.share {
 }
 
 @media (max-width: 626px) {
-.fulcrum-live .time-block {
+  .fulcrum-live .time-block {
     flex-direction: column;
   }
 
@@ -408,4 +408,8 @@ section.share {
 
 @media (max-width: 480px) {
   .fulcrum-live .inner-nav a { font-size: 1.2em; }
+}
+
+@media (max-width: 330px) {
+  .fulcrum-live .inner-nav a { font-size: 1em; }
 }
