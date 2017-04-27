@@ -69,6 +69,22 @@ p { font-weight: 300; }
   text-align: left;
 }
 
+/* About section */
+
+.fulcrum-live .boston {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to right, rgba(147, 6, 6, 0.4), rgba(251, 3, 0, 0.4), rgba(252, 140, 14, 0.4)), url('/assets/img/fulcrum-live/bostonseaside.jpg') center center no-repeat;
+}
+
+.fulcrum-live .boston h3,
+.boston p {
+  color: #fff;
+  padding: 20px;
+}
+
+/*.fulcrum-live .boston p { color: #fff; }*/
+
 /* schedule section */
 
 .fulcrum-live .upper {
