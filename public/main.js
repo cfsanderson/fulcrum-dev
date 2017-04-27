@@ -1,12 +1,12 @@
 // if (process.env.NODE_ENV !== 'production') require('./index.html')
-import './index.html'
-import './screen.css'
-import './data.json'
-
-const main () {
-  console.log('💩')
-  document.getElementById('map')
-}
+// import './index.html'
+// import './screen.css'
+// import './data.json'
+//
+// const main () {
+//   console.log('💩')
+//   document.getElementById('map')
+// }
 
 // const GoogleMapsAPIKey = 'AIzaSyCGAdXYyWex50ZuhI7ohksTATeNPXWzpNc'
 //
@@ -22,9 +22,9 @@ const main () {
 //     });
 //   }
 
-document.addEventListener('DOMContentLoaded', main)
-
-if (module.hot) {
-  module.hot.dispose(() => window.location.reload())
-  module.hot.accept(err => console.error(err))
-}
+// document.addEventListener('DOMContentLoaded', main)
+//
+// if (module.hot) {
+//   module.hot.dispose(() => window.location.reload())
+//   module.hot.accept(err => console.error(err))
+// }
