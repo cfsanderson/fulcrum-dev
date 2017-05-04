@@ -697,6 +697,7 @@ input:checked + .slide-container  .slide {
   .dcg-banner-inner h3 { font-size: 1.2em; padding-top: 25px; }
   .dcg-button { padding: 10px 0 35px 0; }
 }*/
+
 /* end Data Collection Guide banner media queries */
 
 /* Fulcrum-Live banner */
@@ -707,9 +708,7 @@ input:checked + .slide-container  .slide {
     url('/assets/img/fulcrum-live/fulcrum-live-globe-background-01.jpg')
     center / cover
     no-repeat;
-  /*overflow: hidden;*/
   padding: 10px 50px;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -730,12 +729,12 @@ input:checked + .slide-container  .slide {
 }
 
 .fulcrum-live-banner-inner-image {
-  /*max-height: 100px;*/
   max-width: 300px;
   padding: 10px;
 }
 
-.fulcrum-live-button {padding: 10px;}
+.fulcrum-live-button { padding: 10px; }
+
 .fulcrum-live-button a {
   height: 40px;
   white-space: nowrap;
@@ -744,50 +743,22 @@ input:checked + .slide-container  .slide {
   align-items: center;
 }
 
-@media only all and (max-width: 978px) {
-  .fulcrum-live-banner-inner h3 {
-    min-width: 306px;
-  }
-}
-
 @media only all and (max-width: 756px) {
-  .fulcrum-live-banner {
-    height: 150px;
-  }
-
-  .fulcrum-live-banner-inner-image img {
-    /*height: auto;*/
-    max-width: 200px;
-    /*flex: 2;*/
-  }
-
   .fulcrum-live-banner-inner { flex-wrap: wrap; }
-
-  .fulcrum-live-banner-inner h3 {
-    max-width: 225px;
-  }
 }
 
 @media only all and (max-width: 580px) {
   .fulcrum-live-banner-inner {
     flex-direction: column;
   }
-    .fulcrum-live-banner-inner h3 {
-    font-size: 1.2em;
-  }
+}
 
 @media only all and (max-width: 480px) {
-
-  .fulcrum-live-banner-inner h3 {
-    padding-top: 25px;
-    text-align: center;
-  }
-  .fulcrum-live-button { padding: 10px 0 35px 0; }
+  .fulcrum-live-button { padding: 10px; }
 }
 
 @media only all and (max-width: 320px) {
-  .fulcrum-live-banner-inner h3 { font-size: 1.2em; padding-top: 25px; }
-  .fulcrum-live-button { padding: 10px 0 35px 0; }
+  .fulcrum-live-button { padding: 10px; }
 }
 
 /* end Fulcrum Live banner media queries */
