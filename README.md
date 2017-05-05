@@ -26,3 +26,5 @@ TODOs (4/24)
   - [ ] Register sub-section
     - [x] add CTA
     - [ ] style CTA
+
+updating readme
