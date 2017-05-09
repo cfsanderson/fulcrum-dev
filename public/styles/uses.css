@@ -1,0 +1,115 @@
+.uses .main-headline { background: #ccc; margin-bottom: 40px; padding: 45px 0px 60px; }
+.uses .main-headline h1 { color:#fff; font-size:2.75em; margin: 0; text-align: center; }
+.uses .main-headline p { color:#fff; font-size: 1em; margin:0; padding: 0; }
+
+.uses .content h2 { text-align: left; }
+.uses h2 { margin-bottom: 5px; text-align: left; font-size: 30px; }
+.uses h3 { margin-bottom: 15px; text-align: left; font-size: 24px; }
+.uses p { margin-bottom: 20px; }
+.uses article ul li { font-size: .875em; margin-bottom: 15px; line-height: 1.5em; list-style: none; margin-left: 20px; padding-left: 40px; background: url(../img/uses/arrow.svg) no-repeat left top; background-size: 25px; }
+
+
+
+.uses .asset header.main-headline { background: #256397; }
+.uses .inventory header.main-headline { background: #526370; }
+.uses .inspections header.main-headline { background: #268ce2; }
+.uses .mobile-forms header.main-headline { background: #b40000; }
+.uses .checklists header.main-headline { background: #0f404e; }
+.uses .field-data header.main-headline { background: #419a3c; }
+.uses .field-service header.main-headline { background: #f46504; }
+
+.uses header.main-headline p { margin-bottom: 30px; }
+
+.uses .sample { position:relative; margin-bottom:160px; }
+.uses .branding, .uses .contact, .uses .layout, .uses .signatures { position:absolute; }
+.uses .branding { background: url(../img/features/branding.png) top center no-repeat; height:167px; width:263px; top:-80px; left:-184px; }
+.uses .contact { background: url(../img/features/contact.png) top center no-repeat; height:117px; width:267px; top:0; right:-160px; }
+.uses .layout { background: url(../img/features/layout.png) top center no-repeat; height:208px; width:276px; top:170px; left:-190px; }
+.uses .signatures { background: url(../img/features/signatures.png) top center no-repeat; height:198px; width:310px; bottom:-110px; left:0; }
+
+.uses aside .appImg {
+  height:100px;
+  line-height:100px;
+  overflow:hidden;
+  text-align:center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.uses aside .appImg img {
+  margin:-50%;
+  width: 100%;
+}
+
+.uses aside .usestudies img {
+  width: 246px;
+  margin-bottom: 10px;
+  border: #ccc 1px solid;
+  padding: 5px;
+}
+.uses aside .usestudies p {
+  margin-bottom: 30px;
+}
+
+
+.uses article img { margin-bottom: 40px; width: 100%; float: left; }
+
+
+@media (min-width: 320px) {
+  .uses article { float: left; width: 280px; }
+  .uses aside { background: #fff; border: 1px solid #eee; float: right; padding: 20px; width: 240px; }
+}
+
+@media (min-width: 480px) {
+  .uses article { float: left; width: 480px; }
+  .uses aside { float: right; width: 440px; margin: 0 20px; }
+
+}
+
+@media (min-width: 756px) {
+  .uses article { float: left; width: 400px; }
+  .uses aside { float: right; width: 260px; margin: 0; }
+
+}
+
+@media (min-width: 978px) {
+  .uses article { float: left; width: 600px; }
+  .uses aside { float: right; width: 300px; }
+
+}
+
+.uses .index .main-headline { background: #03b0bb; overflow: hidden; padding: 0; border-bottom: 1px solid #f2f2f2; }
+.uses .index .main-headline .text { float: left; padding-top: 72px; text-align: left; width: 340px; }
+.uses .index .main-headline .text span { bottom: -7px; color: #fff; font-size: 16px; font-weight: 200; position: relative; text-transform: uppercase; }
+.uses .index .main-headline h1 { color: #fff; font-size: 44px; text-align: left; }
+.uses .index .main-headline p { color: #fff; font-size: 18px; font-weight: 200; text-align: left; }
+.uses .index .main-headline figure { float: right; margin-right: -61px; width: 674px; }
+.uses .index .main-headline img { padding-top: 0px; display: block; }
+
+#has-grid { margin: 30px auto; }
+.uses #has-grid .grid-item .category { font-size: 12px; font-weight: 400; }
+.uses #has-grid .grid-item .category span { color: #000; border: 1px solid #ccc; }
+
+.mobile-only li a img { max-width: 200px; height: auto; }
+
+@media only all and (max-width: 978px) {
+  .uses .index .main-headline .text { padding-top: 30px; }
+  .uses .index .main-headline figure { width: 450px; }
+  .uses .index .main-headline p { font-size: 16px; }
+}
+@media only all and (max-width: 756px) {
+  .uses .index .main-headline { padding: 30px 0 40px; }
+  .uses .index .main-headline .text { float: none; padding-top: 0; text-align: center; width: auto; }
+  .uses .index .main-headline h1 { line-height: 44px; margin: 10px 0; text-align: center; }
+  .uses .index .main-headline p { text-align: center; font-size: 18px; }
+  .uses .index .main-headline figure { display: none; }
+}
+@media only all and (max-width: 480px) {
+  #has-grid { width: auto; }
+}
+.uses section.intro, .uses section.quote, .uses section.apps, .uses section.tutorial { margin-top: 50px; margin-bottom: 50px;  }
+.uses section.intro { margin-top: 25px; }
+
+.uses .index .content { padding-bottom:0px; }
+
+
+

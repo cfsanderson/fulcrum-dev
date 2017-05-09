@@ -1,0 +1,349 @@
+---
+title: job stylesheet
+---
+.controller iframe { height: 760px; }
+
+.banner { background: url(../img/press/press-BG.jpg) top center no-repeat; background-size: cover; margin-bottom: 20px; padding: 45px 0px 60px; }
+
+.jobs {
+  /*background:url('../img/blackline2.png') no-repeat top center;*/
+  clear:both;
+  display:block;
+  max-width: 944px;
+  _width:59em;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:auto;
+  padding:50px 0;
+}
+
+.jobs .description h2 {
+  font-weight:300;
+  line-height:1.125;
+  text-align:center;
+  font-size:3em;
+  text-transform:uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom:1.5em;
+}
+
+.listing  {
+  max-width:56em;
+  _width:56em;
+  padding-left:1em;
+  padding-right:1em;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.jobopening {
+  padding-bottom: 20px;
+}
+
+
+.jobtitle span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:300;
+  line-height:1;
+  font-size:1.7em;
+}
+
+.desc {
+  display: inline-block;
+  width: 32em;
+}
+.desc p, .desc li, .jobapply li {
+  line-height: 1.6em;
+  font-size: 13px;
+}
+
+.desc p span {
+  float: right;
+  padding-top: 15px;
+}
+
+.controller {
+  background: url('../img/controller.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+
+.content-marketing {
+  background: url('../img/content-marketing.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+.web-designer {
+  background: url('../img/designer.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+
+.ios-developer {
+  background: url('../img/ios-dev.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+
+.ios-developer span {
+  top: 6px;
+  position: relative;
+}
+.hr-generalist {
+  background: url('../img/hr.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+
+.hr-generalist span {
+  top: 6px;
+  position: relative;
+}
+
+.content-marketing span {
+  top: 6px;
+  position: relative;
+}
+.web-designer span {
+  top: 6px;
+  position: relative;
+}
+
+
+.controller span {
+  top: 18px;
+  position: relative;
+}
+
+.engineer {
+  background: url('../img/engineer.svg') no-repeat top left;
+  min-height: 65px;
+  background-size: 65px 65px;
+}
+
+.engineer span {
+  top: 15px;
+  position: relative;
+}
+
+
+.engineer span, .ios-developer span, .content-marketing span, .web-designer span, .hr-generalist span, .controller span{
+  padding-left: 80px;
+  display: block;
+  min-height: 65px;
+  width: 228px;
+}
+
+.jobapply p {
+  margin-top: 2em;
+}
+
+.apply {
+  width: 100%;
+  background-color: #ffed55;
+  border: 0;
+  color: #000;
+  text-align: center;
+  margin: 10px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: .9em 5em;
+  font-weight: bold;
+  font: normal 900 .875em/100% 'Lato', helvetica, arial, sans-serif;
+}
+
+.apply:hover {
+	background-color: #fff885;
+	color: #000;
+}
+
+.jobshare {
+  background-color: #f7f7f7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0;
+}
+.jobshare p {
+  font-size: .9em;
+  text-transform: none;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+
+.fbjob {
+  background: url(../img/06-facebook.svg) center center no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 24px 24px;
+}
+.lijob {
+  background: url(../img/05-linkedin.svg) center center no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 24px 24px;
+}
+
+.twjob {
+  background: url(../img/03-twitter.svg) center center no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 25px 25px;
+}
+
+.gpjob {
+  background: url(../img/40-google-plus.svg) center center no-repeat;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: 25px 25px;
+}
+
+.snidesc, .jobapply {
+  font-size: .9em;
+  margin-top: 20px;
+}
+
+.snidesc p {
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+.desc {
+  font-size: .9em;
+  display: inline-block;
+  width: 32em;
+  border-left: 1px solid #eee;
+}
+
+.desc h3{
+  font-size: 1em;
+  padding: .5em 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.desc p{
+  padding-bottom: .5em;
+}
+
+.desc ul li, .jobapply ul li{
+  list-style: disc;
+  margin-left: 18px;
+  padding-bottom: .25em;
+}
+
+.return{
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 679px){
+  .desc {
+    width: 90%;
+    padding: 15px 5% 0;
+  }
+  .snidesc{
+    display: none;
+  }
+  .jobtitle{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  .engineer span, .content-marketing span, .ios-developer span, .web-designer span, .hr-generalist span, .controller span{
+    display: block;
+  }
+  .jobtitle button {
+    width: 290px;
+  }
+  .jobshare {
+    width: 290px;
+  }
+  .jobcontact {
+	display: none;
+  }
+  .jobcontactbottom {
+	display: block;
+  }
+}
+
+@media (min-width: 680px){
+  .desc {
+    width: 90%;
+    padding: 15px 5% 0;
+  }
+  .snidesc{
+    display: none;
+  }
+  .jobtitle{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding-right: 0;
+  }
+  .engineer span, .content-marketing span, .ios-developer span, .web-designer span, .hr-generalist span, .controller span {
+    display: block;
+  }
+  .jobtitle button {
+    width: 290px;
+  }
+  .jobshare {
+    width: 290px;
+  }
+    .jobcontact {
+	display: none;
+  }
+  .jobcontactbottom {
+	display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .desc {
+    display: inline-block;
+    width: 50%;
+    padding: 0 0 0 2.5em;
+  }
+  .snidesc{
+    display: block;
+  }
+  .jobtitle{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-right: 2em;
+  }
+  .jobtitle button {
+    width: 100%;
+  }
+  .jobshare {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .jobcontact {
+	display: block;
+  }
+  .jobcontactbottom {
+	display: none;
+  }
+}
+
+@media (min-width: 978px) {
+
+}

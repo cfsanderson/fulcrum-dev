@@ -1,0 +1,271 @@
+---
+title: team stylesheet
+---
+
+.banner { background: url(../img/press/press-BG.jpg) top center no-repeat; background-size: cover; margin-bottom: 20px; padding: 45px 0px 60px; }
+.banner p { text-align: center; }
+
+.teampage {
+color:#000;
+}
+
+.team-inner {
+clear:both;
+display:block;
+max-width: 944px;
+_width:59em;
+margin-left:auto;
+margin-right:auto;
+overflow:auto;
+padding:50px 0;
+}
+
+.team-inner .description {
+display: inline-block;
+width:100%;
+}
+
+.team-inner .description h2 {
+font-weight:300;
+line-height:.85;
+text-align:right;
+font-size:3.25em;
+text-transform:uppercase;
+font-family: 'bebas_neueregular', sans-serif;
+margin-bottom:1em;
+margin-left:20px;
+width:auto;
+float:left;
+display:inline-block;
+}
+
+.team-inner .description p {
+margin-left:10px;
+line-height:1.25;
+text-align:left;
+float:right;
+display:inline-block;
+width:800px;
+font-size:1.4em;
+}
+
+.teampage ul li {
+display:inline-block;
+width:225px;
+background-color:#464646;
+padding-bottom:5px;
+margin:3px 3px 6px;
+}
+
+.teampage img {
+clear:both;
+display:block;
+}
+
+.teampage .name {
+clear:both;
+font-size:1.5em;
+text-align:center;
+text-transform:uppercase;
+font-family: 'bebas_neueregular', sans-serif;
+display:block;
+width:225px;
+margin-top:5px;
+}
+
+.teampage .job {
+clear:both;
+text-align:center;
+width:225px;
+display:block;
+color:#ff0000;
+text-transform:lowercase;
+}
+
+
+
+.profile {
+background-repeat: no-repeat;
+background-position: 50% 0;
+-webkit-background-size: cover;
+background-size: cover;
+height: 300px;
+width: 300px;
+}
+
+.contain {
+position: relative;
+}
+.clearfix {
+display: block;
+}
+
+.keyline-right {
+border-right: 1px solid rgba(0,0,0,0.10);
+}
+/*.pad4 {
+padding: 0 30px;
+}*/
+
+.colright {
+float: left;
+display: inline-block;
+padding: 0 0 0 30px;
+}
+.colleft{
+display: inline-block;
+float: left;
+background-color:#f4f4f4;
+}
+.keyline-all {
+border: 1px solid rgba(0,0,0,0.10);
+}
+
+small, .prose.small, .small {
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0;
+}
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6, .prose p, .prose ul, .prose ol, .prose img, .prose blockquote, .prose pre, .prose iframe, .prose object, .prose div.highlight {
+display: block;
+margin-bottom: 20px;
+word-wrap: break-word;
+}
+.colright h2 {
+font-size: 22px;
+width: 50%;
+float: left;
+display: inline-block;
+text-align: left;
+}
+.colright h4{
+font-size: 18px;
+width: 50%;
+float: right;
+display: inline-block;
+text-align: right;
+}
+.prose {
+line-height: 25px;
+border-top: 1px solid rgba(0,0,0,0.10);
+padding-top: 15px;
+}
+.bio p {
+font-size: 14px;
+line-height: 22px;
+color: #7f7f7f;
+color: rgba(0,0,0,.5);
+}
+.teammate{
+background: #fff;
+border: 1px solid rgba(0,0,0,0.10);
+padding: 20px;
+overflow: inherit;
+margin-bottom: 20px;
+}
+.teamsocial{
+padding: 10px;
+}
+.heading{
+height: 30px;
+margin-bottom: 10px;
+}
+
+@media (max-width: 679px){
+.mobprof{
+display: inline-block;
+height: 64px;
+width: 64px;
+}
+.mobprof img { 
+height: 60px;
+width: 60px;
+border: solid 2px #777;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+ }
+
+.headprof{
+	display: inline-block;
+}
+.colleft{
+display: none;
+}
+.colright {
+padding: 0;
+}
+.heading {
+height: 45px;
+margin-left: 5px;
+}
+.colright h2 {
+width: 100%;
+font-size: 18px;
+}
+.colright h4 {
+width: 100%;
+float: left;
+text-align: left;
+}
+.teamsocial{
+display: none;
+}
+}
+
+@media (min-width: 680px){
+.mobprof{
+display: none;
+}
+.colleft{
+display: inline-block;
+}
+.colright {
+width: 52%;
+padding: 0 0 0 30px;
+}
+.heading {
+height: 45px;
+}
+.colright h2 {
+width: 100%;
+font-size: 22px;
+}
+.colright h4 {
+width: 100%;
+float: left;
+text-align: left;
+}
+.profile {
+height: 300px;
+width: 300px;
+}
+
+.teamsocial{
+display: block;
+}
+}
+
+@media (min-width: 800px){
+.colright {
+width: 60%;
+}
+.heading {
+height: 30px;
+}
+.colright h4 {
+width: 35%;
+float: right;
+text-align: right;
+}
+.colright h2 {
+width: 60%;
+}
+}
+
+@media (min-width: 978px){
+.colright {
+width: 65%;
+}
+}
+

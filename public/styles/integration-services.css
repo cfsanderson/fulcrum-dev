@@ -1,0 +1,79 @@
+.integration-services .content { background: #fff; padding-bottom: 0; }
+.integration-services .main-headline { background: #8c9cac; padding-top: 40px; padding-bottom: 244px; margin-bottom: 163px; }
+.integration-services .main-headline h1,
+.integration-services .main-headline p { color: #fff; }
+.integration-services .main-headline h1 { font-size: 52px; } 
+.integration-services .main-headline p { font-size: inherit; margin: 20px 0; }
+.integration-services .hero-image { background: #8c9cac; margin-bottom: 133px; position: relative; }
+.integration-services .box { 
+  background: url(../img/integration-services/integration-services-box2.jpg) bottom center no-repeat; 
+  background-size: 857px 456px; 
+  bottom: -510px;
+  height: 456px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -428px;
+  width: 857px;
+}
+.integration-services .services { padding-bottom: 50px; }
+.integration-services .item { margin: 0 auto; padding: 40px 0; width: 590px; }
+.integration-services .icon { 
+  background: #f1f1f1;
+  -webkit-border-radius: 97px;
+  -moz-border-radius: 97px;
+  border-radius: 97px;
+  
+  height: 194px;
+  margin: 0 auto 20px; 
+  text-align: center; 
+  width: 194px;
+}
+.integration-services .consulting .icon { background: #caedff; }
+.integration-services .consulting img { margin-top: 58px; width: 152px; }
+.integration-services .custom-reports .icon { background: #e5dfd5; }
+.integration-services .custom-reports img { margin-top: 50px; width: 95px; }
+.integration-services .data-wrangling .icon { background: #d6efaf; }
+.integration-services .data-wrangling img { margin-top: 54px; width: 103px; }
+.integration-services .custom-dashboards .icon { background: #f6d7a2; }
+.integration-services .custom-dashboards img { margin-top: 50px; width: 95px; }
+.integration-services .workflow .icon { background: #fadcdc; }
+.integration-services .workflow img { margin-top: 51px; width: 98px; }
+
+.integration-services .item h2 { font-size: 44px; }
+.integration-services .item li { padding-top: 20px; margin-left: 26px; position: relative; }
+.integration-services .item li:before { 
+  content: "";
+  background: url(/assets/img/plans/plans-check.svg) 0 0 no-repeat;
+  background-size: 20px 20px;
+  display: block;
+  height: 20px;
+  left: -26px;
+  margin-top: 1px;
+  position: absolute;
+  width: 20px;
+}
+
+.form #header.info { display: none; }
+.integration-services .form section { max-width: 590px; }
+
+/* GENERAL MOBILE STYLES */
+@media (max-width: 978px) {
+}
+@media (max-width: 756px) {
+  .integration-services .hero-image { margin-bottom: 34px; }
+  .integration-services .box { background-size: 675px 333px; height: 333px; bottom: -375px; } 
+  .integration-services .services { text-align: left; }
+  .integration-services .icon { margin: 0 auto 40px; }
+  .integration-services .item { margin: 0 auto; padding: 50px 0; width: 90%; }
+  .integration-services .item h2 { font-size: 21px; text-align: left; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+
+
+
+/* OVERWRITE GOOGLE FORM BG */
+#get-started { background: #fcfcfc; border-top: 1px solid #eee; padding-top: 50px; }

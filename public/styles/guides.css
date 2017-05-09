@@ -1,0 +1,542 @@
+.guides .main-headline {
+  background: #003c66;
+  background-image: -webkit-linear-gradient(287deg,#003c66 10%,#005692 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#003c66 10%,#005692 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#003c66 10%,#005692 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#003c66 10%,#005692 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#003c66 10%,#005692 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+  padding: 25px 0 45px;
+}
+.docs .answer.guides .main-headline { padding: 25px 0 45px; }
+.guides.developers .main-headline {
+  background: #006680;
+  background-image: -webkit-linear-gradient(287deg,#006680 10%,#0093b9 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#006680 10%,#0093b9 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#006680 10%,#0093b9 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#006680 10%,#0093b9 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#006680 10%,#0093b9 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+  padding: 25px 0 45px;
+}
+.guides .main-headline h1, .docs .answer.guides .main-headline h1 { color:#fff; font-size:2.75em; text-align: center; }
+.guides .main-headline p, .docs .answer.guides .main-headline p { color:#fff; font-size: 1em; margin:0; line-height: 1.5em; }
+.guides .main-headline a { color:#fff; font-size: 14px; }
+.guides .main-headline a:hover { color:#94f5fe; }
+
+.guides .content.section-index section ul { margin-top: 20px; }
+
+.guides.section-index li.card a {
+  background: #f2f2f2;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  display: block;
+  float: left;
+  height: 268px;
+  width: 310px;
+  margin: 5px;
+  padding: 17px 25px 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+.guides.section-index li.card a:hover { background: #fbfbfb; }
+.guides.section-index li .top-bar {
+  background: #ccc;
+  -webkit-border-top-left-radius: 7px;
+  -webkit-border-top-right-radius: 7px;
+  -moz-border-radius-topleft: 7px;
+  -moz-border-radius-topright: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 50px;
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+}
+.guides.section-index li h2 { font-size: 30px; text-align: left; padding-top: 50px; }
+.guides.section-index li.card-expressions h2 { font-size: 24px; }
+.guides.section-index li p { color: #444; }
+.guides.section-index li .count { font-size: 12px; margin-top: 5px; }
+.guides.section-index li .count svg { fill: #8c8c8c; height: 18px; width: 18px; display: block; float: left; margin-right: 7px; margin-top: -1px; }
+.guides.section-index li .desc { font-size: 16px; padding-top: 18px; }
+
+
+.guides .section li {
+  background: #f2f2f2;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  display: block;
+  float: left;
+  width: 99%;
+  margin: 5px;
+  padding: 15px 25px 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.guides .section li .top-bar {
+  background: #ccc;
+  -webkit-border-top-left-radius: 7px;
+  -webkit-border-top-right-radius: 7px;
+  -moz-border-radius-topleft: 7px;
+  -moz-border-radius-topright: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 7px;
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+}
+.guides .section ul { margin-top: 30px; }
+.guides .section li h2 { font-size: 30px; text-align: left; padding-top: 20px; }
+.guides .section li p { color: #444; }
+.guides .section li .text { float: left; width: 680px; }
+.guides .section li a.btn { float: right; margin-top: 54px; margin-right: 20px; }
+.guides .section li h2 a { color: #000; }
+.guides .section.developers li a { margin-top: 35px; }
+
+
+/* Styles for youtube videos embedded in the guides */
+.guides section h3 { margin-bottom: 10px; }
+.guides section iframe + ul { margin-left: 0 !important; margin-bottom: 30px !important; overflow: hidden; padding-top: 5px; }
+.guides section iframe + ul li { float: left; list-style: none !important; margin-right: 5px; }
+.guides section iframe + ul li a {
+  background: #f9f9f9;
+  border: 1px solid #f1f1f1;
+  padding: 3px 6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.guides.answer aside li a.nav-active { color: #3a98c3; }
+
+.guides .image-caption {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.guides .difficulty {
+  font-size: 11px;
+  color: #fff !important;
+  padding: 5px 15px;
+  background: #ccc;
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.guides .difficulty.basic { background: #509a00; border: 1px solid #3c7400; }
+.guides .difficulty.intermediate { background: #f7ba00; border: 1px solid #f79700; }
+.guides .difficulty.advanced { background: #ea0000; border: 1px solid #ba0000; }
+
+
+/* Guides section index media queries */
+
+@media (max-width: 978px) {
+  .guides.section-index li.card a.btn { width: 48%; }
+  .guides .section li .text { width: 460px; }
+}
+@media (max-width: 756px) {
+  .guides.section-index li.card a.btn { width: 99%; }
+  .guides .section li .text { float: none; width: auto; }
+  .guides .section li a.btn { float: none; margin-top: 20px; margin-right: auto; }
+  .guides.section-index li.card a { height: auto; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+
+/* TOP BAR COLORS */
+
+/* CRASH COURSE */
+
+/* Section Guide Listings */
+.guides .section.crash-course .top-bar { background: #57820d; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-crash-course .top-bar {
+  background: #57820d;
+  background-image: -webkit-linear-gradient(287deg,#57820d 2%,#88bb00 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#57820d 2%,#88bb00 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#57820d 2%,#88bb00 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#57820d 2%,#88bb00 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#57820d 2%,#88bb00 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .crash-course .main-headline, .docs .answer.guides.crash-course .main-headline {
+  background: #57820d;
+  background-image: -webkit-linear-gradient(287deg,#57820d 10%,#88bb00 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#57820d 10%,#88bb00 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#57820d 10%,#88bb00 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#57820d 10%,#88bb00 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#57820d 10%,#88bb00 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* APP DESIGN */
+
+/* Section Guide Listings */
+.guides .section.app-design .top-bar { background: #f00; }
+
+
+/* Smaller, Section tops */
+.guides.section-index li.card-app-design .top-bar {
+  background: #35416f;
+  background-image: -webkit-linear-gradient(287deg,#bf0000 2%,#f00 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#bf0000 2%,#f00 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#bf0000 2%,#f00 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#bf0000 2%,#f00 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#bf0000 2%,#f00 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .app-design .main-headline, .docs .answer.guides.app-design .main-headline {
+  background: #35416f;
+  background-image: -webkit-linear-gradient(287deg,#bf0000 10%,#f00 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#bf0000 10%,#f00 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#bf0000 10%,#f00 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#bf0000 10%,#f00 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#bf0000 10%,#f00 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* MOBILE */
+
+/* Section Guide Listings */
+.guides .section.mobile .top-bar { background: #35416f; }
+
+
+/* Smaller, Section tops */
+.guides.section-index li.card-mobile .top-bar {
+  background: #35416f;
+  background-image: -webkit-linear-gradient(287deg,#35416f 2%,#6272b0 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#35416f 2%,#6272b0 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#35416f 2%,#6272b0 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#35416f 2%,#6272b0 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#35416f 2%,#6272b0 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .mobile .main-headline, .docs .answer.guides.mobile .main-headline {
+  background: #35416f;
+  background-image: -webkit-linear-gradient(287deg,#35416f 10%,#6272b0 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#35416f 10%,#6272b0 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#35416f 10%,#6272b0 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#35416f 10%,#6272b0 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#35416f 10%,#6272b0 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* PUBLISHING */
+
+/* Section Guide Listings */
+.guides .section.publishing-data .top-bar { background: #24747d; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-publishing-data .top-bar {
+  background: #24747d;
+  background-image: -webkit-linear-gradient(287deg,#24747d 2%,#00b5bc 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#24747d 2%,#00b5bc 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#24747d 2%,#00b5bc 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#24747d 2%,#00b5bc 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#24747d 2%,#00b5bc 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .publishing-data .main-headline, .docs .answer.guides.publishing-data .main-headline {
+  background: #24747d;
+  background-image: -webkit-linear-gradient(287deg,#24747d 10%,#00b5bc 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#24747d 10%,#00b5bc 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#24747d 10%,#00b5bc 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#24747d 10%,#00b5bc 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#24747d 10%,#00b5bc 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* WEBHOOKS */
+
+/* Section Guide Listings */
+.guides .section.webhooks .top-bar { background: #541976; }
+
+
+/* Smaller, Section tops */
+.guides.section-index li.card-webhooks .top-bar {
+  background: #541976;
+  background-image: -webkit-linear-gradient(287deg,#541976 2%,#8800ba 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#541976 2%,#8800ba 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#541976 2%,#8800ba 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#541976 2%,#8800ba 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#541976 2%,#8800ba 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .webhooks .main-headline, .docs .answer.guides.webhooks .main-headline {
+  background: #541976;
+  background-image: -webkit-linear-gradient(287deg,#541976 10%,#8800ba 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#541976 10%,#8800ba 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#541976 10%,#8800ba 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#541976 10%,#8800ba 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#541976 10%,#8800ba 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* MANAGING DATA */
+
+/* Section Guide Listings */
+.guides .section.managing-data .top-bar { background: #c15f00; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-managing-data .top-bar {
+  background: #c15f00;
+  background-image: -webkit-linear-gradient(287deg,#c15f00 2%,#ffa200 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#c15f00 2%,#ffa200 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#c15f00 2%,#ffa200 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#c15f00 2%,#ffa200 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#c15f00 2%,#ffa200 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .managing-data .main-headline, .docs .answer.guides.managing-data .main-headline {
+  background: #c15f00;
+  background-image: -webkit-linear-gradient(287deg,#c15f00 10%,#ffa200 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#c15f00 10%,#ffa200 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#c15f00 10%,#ffa200 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#c15f00 10%,#ffa200 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#c15f00 10%,#ffa200 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* MAPPING AND GIS */
+
+/* Section Guide Listings */
+.guides .section.mapping-and-gis .top-bar { background: #c20b59; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-mapping-and-gis .top-bar {
+  background: #c20b59;
+  background-image: -webkit-linear-gradient(287deg,#c20b59 2%,#f93c7a 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#c20b59 2%,#f93c7a 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#c20b59 2%,#f93c7a 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#c20b59 2%,#f93c7a 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#c20b59 2%,#f93c7a 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .mapping-and-gis .main-headline, .docs .answer.guides.mapping-and-gis .main-headline {
+  background: #c20b59;
+  background-image: -webkit-linear-gradient(287deg,#c20b59 10%,#f93c7a 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#c20b59 10%,#f93c7a 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#c20b59 10%,#f93c7a 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#c20b59 10%,#f93c7a 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#c20b59 10%,#f93c7a 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* DATA EVENTS */
+
+/* Section Guide Listings */
+.guides .section.data-events .top-bar { background: #4684b3; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-data-events .top-bar {
+  background: #4684b3;
+  background-image: -webkit-linear-gradient(287deg,#4684b3 2%,#5caeeb 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#4684b3 2%,#5caeeb 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#4684b3 2%,#5caeeb 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#4684b3 2%,#5caeeb 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#4684b3 2%,#5caeeb 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .data-events .main-headline, .docs .answer.guides.data-events .main-headline {
+  background: #4684b3;
+  background-image: -webkit-linear-gradient(287deg,#4684b3 10%,#5caeeb 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#4684b3 10%,#5caeeb 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#4684b3 10%,#5caeeb 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#4684b3 10%,#5caeeb 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#4684b3 10%,#5caeeb 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+/* Dev Overview */
+
+/* Section Guide Listings */
+.guides .section.overview .top-bar { background: #008ebd; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-overview .top-bar {
+  background: #008ebd;
+  background-image: -webkit-linear-gradient(287deg,#008ebd 2%,#6dc0ff 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#008ebd 2%,#6dc0ff 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#008ebd 2%,#6dc0ff 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#008ebd 2%,#6dc0ff 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#008ebd 2%,#6dc0ff 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .overview .main-headline, .docs .answer.guides.overview .main-headline {
+  background: #008ebd;
+  background-image: -webkit-linear-gradient(287deg,#008ebd 10%,#6dc0ff 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#008ebd 10%,#6dc0ff 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#008ebd 10%,#6dc0ff 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#008ebd 10%,#6dc0ff 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#008ebd 10%,#6dc0ff 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Dev API */
+
+/* Section Guide Listings */
+.guides .section.api .top-bar { background: #cc3e00; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-api .top-bar {
+  background: #cc3e00;
+  background-image: -webkit-linear-gradient(287deg,#cc3e00 2%,#f61082 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#cc3e00 2%,#f61082 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#cc3e00 2%,#f61082 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#cc3e00 2%,#f61082 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#cc3e00 2%,#f61082 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .api .main-headline, .docs .answer.guides.api .main-headline {
+  background: #cc3e00;
+  background-image: -webkit-linear-gradient(287deg,#cc3e00 10%,#f61082 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#cc3e00 10%,#f61082 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#cc3e00 10%,#f61082 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#cc3e00 10%,#f61082 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#cc3e00 10%,#f61082 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Expressions */
+
+/* Section Guide Listings */
+.guides .section.expressions .top-bar { background: #7c736f; }
+
+/* Smaller, Section tops */
+.guides.section-index li.card-expressions .top-bar {
+  background: #7c736f;
+  background-image: -webkit-linear-gradient(287deg,#7c736f 2%,#a09e9a 12%,#fff 18%);
+  background-image: -moz-linear-gradient(287deg,#7c736f 2%,#a09e9a 12%,#fff 18%);
+  background-image: -o-linear-gradient(287deg,#7c736f 2%,#a09e9a 12%,#fff 18%);
+  background-image: -ms-linear-gradient(287deg,#7c736f 2%,#a09e9a 12%,#fff 18%);
+  background-image: linear-gradient(163deg,#7c736f 2%,#a09e9a 12%,#fff 18%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}
+
+/* Larger, Main Headline BGs */
+.guides .expressions .main-headline, .docs .answer.guides.expressions .main-headline {
+  background: #7c736f;
+  background-image: -webkit-linear-gradient(287deg,#7c736f 10%,#a09e9a 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#7c736f 10%,#a09e9a 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#7c736f 10%,#a09e9a 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#7c736f 10%,#a09e9a 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#7c736f 10%,#a09e9a 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+}

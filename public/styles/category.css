@@ -1,0 +1,122 @@
+.category, .tag { background: #fff; }
+.main-headline { padding: 20px 0 40px; }
+.main-headline p, 
+.main-headline h1 { color: #fff; }
+#gallery .tagline { margin: 0 auto;  width: 960px; }
+#gallery .tagline p { font-size: 16px; text-align: center; width: 90%; padding: 0; margin: 0 auto; }
+
+@media (max-width: 978px) {
+  #gallery .tagline { width: 720px; }
+}
+@media (max-width: 756px) {
+  #gallery .tagline { width: 440px; }
+}
+@media (max-width: 480px) {
+  #gallery .tagline { width: 280px; }
+}
+@media (max-width: 320px) {
+}
+
+
+#gallery .cat .feature .text h2 { font-weight:200; letter-spacing:-1px; text-shadow:0 1px 0 #fff; }
+#gallery .cat .feature .text p { font-size:1em; margin-top:-7px; }
+#gallery .cat li { 
+  background:#f7f7f7; 
+  display:block; 
+  margin: 30px auto 0;
+  overflow: hidden;
+  padding-right: 20px;  
+  text-align:left; 
+  width:920px; 
+}
+#gallery .cat .tags li { padding-right: 0; }
+#gallery .cat li .image { float: left; margin-right: 20px; margin-bottom: 0; }
+#gallery .cat li .image img { vertical-align: bottom; width: 180px; }
+#gallery .cat h2 {
+  color: #3a98c3;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  text-align: left;
+ }
+#gallery .cat a:hover h2 { color: #ff0000; }
+#gallery .cat p { color:#000; font-size:0.77777777777778em; margin-top:-3px; margin-bottom: 0; }
+
+#gallery .cat ul.tags { margin-left:0px; }
+#gallery .cat ul.tags li { background:none; color:#000; display:inline; font-size:0.77777777777778em; margin-right:0; }
+#gallery .cat .cta { margin-top: 10px; padding-bottom: 15px; }
+#gallery .cat .cta a { display: inline-block; font-size: .875em; }
+
+/* Category BG Colors */
+.category .category-agriculture .main-headline { background:#8faf50; }
+.category .category-archaeology .main-headline { background:#9e9c77; }
+.category .category-commercial .main-headline { background:#ffa800; }
+.category .category-construction .main-headline { background:#333; }
+.category .category-cultural .main-headline { background:#268ce2; }
+.category .category-disaster-response .main-headline { background:#b40000; }
+.category .category-engineering .main-headline { background:#5c6f7e; }
+.category .category-environmental .main-headline { background:#92a300; }
+.category .category-finance .main-headline { background:#71b900; }
+.category .category-government .main-headline { background:#603b14; }
+.category .category-health .main-headline { background:#ff7171; }
+.category .category-hospitality .main-headline { background:#92588f; }
+.category .category-miscellaneous .main-headline { background:#31cda3; }
+.category .category-natural-resources .main-headline { background:#29c2e3; }
+.category .category-political .main-headline { background:#007ccb; }
+.category .category-real-estate .main-headline { background:#005992; }
+.category .category-safety .main-headline { background:#4d5b00; }
+.category .category-tourism .main-headline { background:#d81688; }
+.category .category-transportation .main-headline { background:#077851; }
+.category .category-utilities .main-headline { background:#455a64; }
+.category .category-water .main-headline { background:#48a4c2; }
+
+/* Tag BG Color */
+.tag .main-headline { background:#aaa; }
+
+/* ----------------------------------------------------------------------------------------------------------
+Media Queries -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+@media (max-width: 978px) {
+  #gallery .cat li { width:720px; }
+}
+@media (max-width: 756px) {
+  #gallery .cat li {
+    padding-right: 0;
+    text-align: center; 
+    width:340px; 
+  }
+  #gallery .cat li .image { 
+    float: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 340px;
+    height: 180px;
+    overflow: hidden;  
+  }
+  #gallery .cat li .image img { width: 340px; }
+  #gallery .cat h3 { text-align: center; }
+  #gallery .cat .app-info { padding: 0 20px; }
+  #gallery .cat ul.tags { margin-top: 10px; }  
+}
+@media (max-width: 480px) {
+  .main-headline { background:#8faf50; padding-top:20px; padding-bottom:40px; margin-bottom:20px; }
+  .main-headline h1 { font-size:2.75em; }
+  .main-headline p { font-size: 14px; margin:0; padding:4px 20px; }
+  #gallery .cat li { width:240px; }
+  #gallery .cat li .image { 
+    width: 240px;
+    height: 140px;
+    overflow: hidden;  
+  }
+  #gallery .cat li .image img { width: 240px; }
+}
+@media (min-width: 320px) {
+}
+
+
+
+
+
+
+

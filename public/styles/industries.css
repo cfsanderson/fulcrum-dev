@@ -1,0 +1,1009 @@
+/* Industries Index main-headline */
+.industries .main-headline { background: #4b5158; overflow: hidden; padding: 0; }
+.industries .main-headline .text { float: left; padding-top: 100px; text-align: left; width: 340px; }
+.industries .main-headline .text span { color: #fff; bottom: -7px; font-size: 16px; font-weight: 200; position: relative; text-transform: uppercase; }
+.industries .main-headline h1 { color: #fff; font-size: 44px; text-align: left; }
+.industries .main-headline p { color: #fff; font-size: 18px; font-weight: 200; text-align: left; }
+.industries .main-headline figure { float: right; width: 654px; margin-right: -40px; }
+.industries .main-headline img { padding-top: 0; vertical-align: bottom; }
+
+
+.industries .main-headline a.white { margin-right: 5px; }
+
+.industries #wrap { padding-bottom:50px; }
+.industries .content { padding-bottom: 0; margin-bottom: -50px; overflow: hidden; }
+
+.landing .banner { margin-bottom: 20px; }
+.landing .banner img { padding-right:20px; vertical-align:middle; }
+.landing .banner h2 {
+  color: #fff;
+  font-size:2.75em;
+  line-height:1em;
+  text-align:center;
+}
+.landing .industries .content { padding-bottom: 0; margin-bottom: -50px; }
+
+.industries header.top h1 {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.industries .cartodb header.top h1, .industries .zapier header.top h1 { margin-bottom: 10px; text-transform: none; }
+.industries .cartodb header.top h2, .industries .zapier header.top h2 {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Lato", helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.industries header.top h1 strong { font-weight: 900; }
+.industries header.top .tagline { color:#fff; font-size: 44px; line-height: 48px; font-family: "Open Sans Condensed"; }
+
+
+/* Full-width Youtube Video Embeds */
+.industries .youtube iframe { display: block; margin: 20px auto; height: 405px; width: 720px; }
+
+@media (max-width: 756px) {
+  .industries .youtube iframe { height: 260px; width: 460px; }
+}
+@media (max-width: 480px) {
+  .industries .youtube iframe { height: 134px; width: 240px; }
+}
+@media (max-width: 320px) {
+}
+
+
+
+/*  New Styles  */
+
+/*  Industries Index  */
+#industries-index { background:#fff; border-bottom:1px solid #d9e2ec; padding-top:5px; padding-bottom:80px; position: relative; }
+.industries.index ul { margin-top: 30px; }
+#industries-index img {
+  border-size: 2px;
+  border-style: solid;
+  border-color: #595c63;
+  border-radius:         96px;
+  -moz-border-radius:    96px;
+  -webkit-border-radius: 96px;
+  width: 190px;
+}
+.industries.index li { border-top: 1px solid #eaeaea; float: left; padding: 0 8px; padding-top: 50px; margin-top: 50px; text-align: center; clear: both; }
+.industries.index li:first-child { border: none; margin-top: 0; padding-top: 0; }
+.industries.index li h6 { padding-top: 10px; text-align: left; }
+.industries.index li p { padding-top: 10px; text-align: left; }
+.industries.index li a.image { float: left; margin-right: 30px; }
+.industries.index li a.btn { float: left; }
+
+@media only all and (max-width: 978px) {
+  .industries.index ul { margin-left: auto; margin-right: auto; }
+  .industries.index li.break1 { margin-left: 0; }
+
+  .industries .main-headline .text { padding-top: 50px; }
+  .industries .main-headline figure { width: 450px; margin-right: -50px; }
+}
+
+@media only all and (max-width: 756px) {
+  .industries.index ul { width: 440px; }
+  .industries.index li.final { margin-left: 97px; }
+  .industries.index li a.image { float: none; margin-right: 0; }
+  .industries.index li h6, .industries.index li p { text-align: center; }
+  .industries.index li a.btn { float: none; }
+  .industries .main-headline { padding: 30px 0 40px; }
+  .industries .main-headline .text { float: none; padding-top: 0; text-align: center; width: auto; }
+  .industries .main-headline h1 { line-height: 44px; margin: 10px 0; text-align: center; }
+  .industries .main-headline p { text-align: center; }
+  .industries .main-headline figure { display: none; }
+}
+@media only all and (max-width: 480px) {
+  .industries.index ul { width: auto; }
+  .industries.index li.final { margin-left: 0; }
+}
+
+.cases-desc  { background: #eee; }
+.cases-desc p { margin: 0 auto; width: 75%; }
+
+/* END Industries Index */
+
+
+
+
+/* GLOBAL */
+.industries .intro-vid { background: #fff url(../img/industries/BG-vid.jpg) top center no-repeat; background-size: cover; border-bottom: 1px solid #eee; }
+.industries .intro-vid iframe { border: 1px solid #eee; box-shadow: 0 0 5px #eee; }
+.industries .what.bottom { margin-top: 50px; clear: both; }
+.industries .main-features { border-bottom: 1px solid #f1f1f1; }
+.industries .features ul { margin-top: 10px; }
+.industries .features .icon { height: 150px; margin-bottom: 20px; position: relative; }
+.industries .features svg { position: absolute; bottom: 0; left: 50%; }
+.industries .features li { float: left; width: 216px; margin-left: 30px; }
+.industries .features li:first-child { margin-left: 0; }
+.industries .features li h3 { font-size: 18px; margin-bottom: 10px; text-align: center; }
+.industries .features li p { text-align: center; }
+
+.industries .content .page.main-content { overflow: hidden; }
+.industries .main-headline.top { overflow: hidden; position: relative; }
+.industries .main-headline.top .page { position: relative; }
+.industries .main-headline.top .page .device { position: absolute; top: 25px; left: 0; margin-left: -105px; }
+.industries .main-headline.top .page .device img { width: 521px; vertical-align: bottom; }
+.industries .main-headline.top .text { float: right; width: 562px; padding: 25px 0 90px 0; position: relative; }
+.industries .main-headline.top .text p.desc { color: #fff; font-size: inherit; }
+.industries .main-headline.top .text span { float: left; }
+.industries .main-headline.top .text p, .industries .main-headline.top .text h1 { text-align: left; }
+.industries .main-headline.top .text p.tagline {}
+.industries .main-headline.top .text h1 { margin: -5px 0 20px 0; }
+.industries .main-headline.top .text a { float: left; }
+
+.industries .testimonial-intro { background: #fff; border-bottom: 1px solid #eee; }
+.industries .testimonial-intro p { font-size: 24px; line-height: 48px; margin-top: 20px; }
+
+.industries .testimonial { background-size: cover !important; }
+
+.features-apps { background: #fff; }
+
+.features-apps .secondary-features { border-bottom: 1px solid #ddd; padding-bottom: 45px; margin-bottom: 45px; }
+.features-apps .secondary-features ul { margin-top: 40px; }
+.features-apps .secondary-features li { float: left; margin: 0 10px; width: 220px; height: 60px; }
+.features-apps .secondary-features li img { max-width: 40px; vertical-align: middle; }
+
+.features-apps .apps {  }
+.features-apps .apps ul { margin-top: 40px; }
+.features-apps .apps li { float: left; height: 350px; width: 190px; margin: 0 25px; }
+.features-apps .apps li img {
+  border-size: 2px;
+  border-style: solid;
+  border-color: #aaa;
+  border-radius:         96px;
+  -moz-border-radius:    96px;
+  -webkit-border-radius: 96px;
+  width: 190px;
+}
+.features-apps .apps h3 { color: #000; font-size: 16px; margin-top: 4px; text-align: center; }
+.features-apps .apps li p { text-align: center; }
+
+.industries .main { float: left; margin-right: 30px; margin-top: 20px; width: 640px; overflow: hidden; }
+.industries .main h2, .industries aside h2 { text-align: left; margin-bottom: 20px; }
+.industries .main article h2 { font-size: 24px; margin-bottom: 0; }
+.industries .main article p { padding: 15px 0; }
+.industries .main article .logo {
+  background: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+
+.industries .testimonial .logo { float: left; margin-right: 40px; }
+.industries .testimonial .logo.right { float: right; margin-left: 40px; }
+.industries .testimonial .text { padding-top: 20px; overflow: hidden; }
+.industries .testimonial h2 { margin-bottom: 20px; text-align: left; }
+/* END NEW GLOBAL STYLES*/
+
+
+/* GLOBAL MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .main-headline.top { padding-bottom: 0; }
+  .industries .main-headline.top .page .device { position: static; }
+  .industries .main { width: inherit; }
+  .industries .main-headline.top .text { float: right; width: auto; padding: 25px 0 45px 0; }
+  .industries .main-headline.top .page { padding-bottom: 0 !important; }
+  .industries .main article img { display: block; max-width: 100%; }
+  .industries aside .apps { width: inherit; }
+
+  .industries .features li { width: 330px; }
+  .industries .features li:first-child { margin-left: 30px; }
+
+}
+@media (max-width: 756px) {
+  .industries .features li { width: inherit; margin-left: 0 }
+  .industries .features li:first-child { margin-left: 0; }
+
+  .industries .testimonial-intro p { font-size: 18px; line-height: 32px; }
+  .industries .main-headline.top .text a { float: none; }
+}
+@media (max-width: 480px) {
+  .industries .main-headline.top .text,
+  .industries .main,
+  .industries aside {
+    box-sizing: border-box; padding: 0 10px;
+  }
+  .industries .main-headline.top .text { padding-bottom: 20px; }
+  .features-apps .apps li { margin: 0 45px; }
+}
+
+@media (max-width: 320px) {
+}
+/* END Global Media Queries */
+
+
+/* LEGACY STYLING (leave in until the last industry page is replaced with Version 2) */
+
+.what { background: #fff; border-bottom: 1px solid #e2e2e2; border-top: 1px solid #e2e2e2; color: #000; overflow: hidden; padding-top: 40px; padding-bottom: 40px; }
+.what.bottom { background: #f4f4f4; }
+.what h2 { font-size: 24px; font-family: 'Lato'; float: left; margin-top: 23px; margin-right: 45px; }
+.what h2 span {
+  background: url(/assets/img/industries-fulcrum-logo.png) top center no-repeat;
+  text-indent: -9999px;
+  display: inline-block;
+  height: 32px;
+  margin: 0 5px 0 -1px;
+  position: relative;
+  top: -3px;
+  width: 76px;
+}
+.how { background: #f5f9fa; padding-top:50px; padding-bottom:30px; }
+.how .uses li { list-style: inside disc; padding-bottom:10px; }
+.featured-users { background: #f0f0f0; padding-top:50px; padding-bottom:50px; }
+.how h2, .featured-users h2, .deploy h2 { margin-bottom: 40px; }
+.how h3 { margin-top: 20px; margin-bottom:20px !important; font-size: 36px; }
+
+.industries .benefits { background:#fafafa; border-bottom: 1px solid #f1f1f1; }
+.industries .benefits section { text-align: center; }
+.industries .benefits img { float: left; margin-right: 30px; }
+.industries .benefits ul { margin-top: 30px; }
+.industries .benefits li { min-height: 175px; }
+.industries .benefits .text { margin: 0 auto; padding: 50px 0 60px; }
+.industries .common-uses { background: #fff; padding: 40px 0 60px; }
+.industries .common-uses h2 { font-size: 3em; }
+.industries .common-uses h4 { text-align: center; }
+.industries .common-uses p.sub { text-align: center; margin: 0 auto 40px; padding: 0 200px; }
+.industries .common-uses ul { }
+.industries .common-uses li { text-align: center; }
+.industries .common-uses svg { fill: #8ca500 !important; height: 50px; width: 50px; }
+.industries .common-uses svg .chevron { fill: #8ca500; }
+
+.featured-users li .logo { height:120px; text-align: center; }
+.featured-users img.northpower { padding-top:40px; }
+.featured-users img.premier { padding-top:25px; }
+.featured-users img.ram { }
+.featured-users li p { font-size: 12px; line-height: 21px; text-align: center; }
+
+.industries header.top { background: #99958e; }
+
+.industries .b1 svg,
+.industries .b2 svg,
+.industries .b3 svg,
+.industries .b4 svg,
+.industries .b5 svg { margin-bottom: 10px; width: 150px; }
+
+.industries .b1 .text h3,
+.industries .b2 .text h3,
+.industries .b3 .text h3,
+.industries .b4 .text h3,
+.industries .b5 .text h3 { font-size: 40px; text-align: center; line-height: normal; }
+
+.industries .b1,
+.industries .b3,
+.industries .b5 { background: #fafafa; }
+
+.industries .b2,
+.industries .b4,
+.industries .b6 { background: #fff; }
+
+.industries .b2 svg,
+.industries .b4 svg,
+.industries .b6 svg { fill: #000; }
+
+.industries .b2 .text h3,
+.industries .b4 .text h3,
+.industries .b6 .text h3 { color: #000; }
+
+/* END LEGACY STYLING */
+
+
+
+/* In-page logos */
+.logos { background:#f1f1f1; padding: 0 10px; height: 84px; text-align: center; overflow: hidden; }
+.logos ul li { display: inline-block; padding: 0 15px; }
+.logos img { height: 80px; }
+
+/* Page-specific adjustments */
+.construction .logos img { height: 66px; }
+.construction .logos ul li { padding-top: 7px; }
+
+.engineering .logos img { height: 72px; }
+.engineering .logos ul li { padding-top: 4px; }
+/* END Page-specific adjustments */
+
+@media only all and (max-width: 756px) {
+  .logos {
+	display: none;
+  }
+
+}
+/* END In-page logos */
+
+
+/* ARCHITECTURE, ENGINEERING, & DESIGN
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .engineering svg { fill: #565d65; height: 51px; width: 46px; margin-top: 16px; }
+.industries .engineering .icon-container { border-color: #565d65; }
+
+.industries .architecture svg { fill: #565d65; height: 51px; width: 46px; margin-top: 16px; }
+.industries .architecture .icon-container { border-color: #565d65; }
+
+/* PAGE-SPECIFIC */
+.industries .engineering header.top { background: #565d65 url(../img/industries/BG-eng-new.jpg) top center no-repeat; }
+.industries .engineering .features svg { fill: #565d65;}
+.industries .engineering .features .f1 svg { height: 110px; width: 129px; margin-left: -65px; }
+.industries .engineering .features .f2 svg { height: 120px; width: 100px; margin-left: -50px; }
+.industries .engineering .features .f3 svg { height: 130px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .engineering .features .f3 svg .shape1 { fill: #565d65; }
+.industries .engineering .features .f3 svg .shape2 { fill: #323e4c; }
+.industries .engineering .features .f4 svg { height: 94px; width: 156px; margin-left: -78px; }
+.industries .engineering .features-apps .apps li img { border-color: #565d65; }
+
+/* TESTIMONIALS */
+.industries .testimonial.rodriguez { background: url(../img/industries/BG-eng-rodriguez.jpg) top center no-repeat; }
+.industries .testimonial.rodriguez .logo { width: 240px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.rodriguez .text { padding-top: 20px; }
+
+.industries .testimonial.smec { background: url(../img/industries/BG-eng-smec.jpg) top center no-repeat; }
+.industries .testimonial.smec .logo { width: 240px; margin-top: 26px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.smec .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial .text { padding-top: 45px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+/* CONSTRUCTION
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .construction svg { fill: #a3540a; height: 53px; width: 40px; margin-top: 16px; }
+.industries .construction .icon-container { border-color: #a3540a; }
+
+/* PAGE-SPECIFIC */
+.industries .construction header.top { background: #a3540a url(../img/industries/BG-con-new.jpg) top center no-repeat; }
+.industries .construction .features svg { fill: #a3540a;}
+.industries .construction .features .f1 svg { height: 100px; width: 129px; margin-left: -65px; }
+.industries .construction .features .f2 svg { height: 104px; width: 148px; margin-left: -74px; }
+.industries .construction .features .f3 svg { height: 105px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .construction .features .f4 svg { height: 94px; width: 126px; margin-left: -63px; }
+.industries .construction .features-apps .apps li img { border-color: #a3540a; }
+
+/* TESTIMONIALS */
+.industries .testimonial.degenkolb { background: url(../img/industries/BG-con-degenkolb.jpg) top center no-repeat; }
+.industries .testimonial.degenkolb .logo { width: 300px; margin-top: 70px; text-align: center; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.degenkolb .text { padding-top: 10px; }
+
+.industries .testimonial.brown-caldwell { background: url(../img/industries/BG-con-brown-caldwell.jpg) top center no-repeat; }
+.industries .testimonial.brown-caldwell .logo { width: 300px; margin-top: 18px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.brown-caldwell .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial .text { padding-top: 45px; }
+  .industries .testimonial.degenkolb .logo, .industries .testimonial.brown-caldwell .logo { width: 240px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+/*  EDUCATION
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .education header.top { background: #8f376a url(../img/industries/BG-edu.jpg) top center no-repeat; }
+.industries .education header svg,
+.industries .education svg { fill: #8f376a; height: 50px; width: 43px; margin-top: 17px; }
+.industries .education .icon-container { border-color: #8f376a; }
+
+.industries .education .text h3 { color: #8f376a; }
+
+.industries .education svg { fill: #8f376a; }
+
+.industries .education .b1 { background:#fafafa; }
+.industries .education .b1 .text svg { height: 190px; width: 220px; margin-left: 58px; /* compensate for optical illusion of misalignment */ }
+
+.industries .education .b2 .text svg { height: 190px; width: 220px; }
+.industries .education .b2 .text svg .line1 { fill: #623a13; }
+.industries .education .b2 .text svg .line2 { fill: #8a5f36; }
+.industries .education .b2 .text svg .line3 { fill: #af8965; }
+.industries .education .b2 .text svg .line4 { fill: #d9c4b0; }
+
+.industries .education .b3 .text svg { height: 210px; width: 280px; }
+.industries .education .b3 .text svg .shape1 { fill: #335d69; }
+.industries .education .b3 .text svg .shape2 { fill: #103a48; }
+
+.industries .education .b4 .text svg { height: 190px; width: 200px; }
+
+.industries .education .b5 .text svg { height: 160px; width: 220px; }
+
+
+/* ENERGY & UTILITIES      **** VERSION 2 ****
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .energy svg { fill: #6b4a2a; height: 53px; width: 34px; margin-top: 16px; }
+.industries .energy .icon-container { border-color: #6b4a2a; }
+
+/* PAGE-SPECIFIC */
+.industries .energy header.top { background: #578bc7 url(../img/industries/BG-ene-new2.jpg) top center no-repeat; }
+.industries .energy .features svg { fill: #623a13;}
+.industries .energy .features .f1 svg { height: 82px; width: 129px; margin-left: -65px; }
+.industries .energy .features .f2 svg { height: 100px; width: 100px; margin-left: -50px; }
+.industries .energy .features .f3 svg { height: 120px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .energy .features .f4 svg { height: 105px; width: 108px; margin-left: -54px; }
+.industries .energy .features-apps .apps li img { border-color: #623a13; }
+
+/* TESTIMONIALS */
+.industries .testimonial.np { background: url(../img/industries/BG-ene-np2.jpg) top center no-repeat; }
+.industries .testimonial.np .logo { width: 400px; margin-top: 35px; }
+.industries .testimonial.np .text { padding-top: 10px; }
+
+.industries .testimonial.premier { background: url(../img/industries/BG-ene-premier.jpg) top center no-repeat; }
+.industries .testimonial.premier .logo { width: 250px; margin-top: 50px; }
+.industries .testimonial.premier .text {  }
+
+.industries .testimonial.ram { background: url(../img/industries/BG-ene-ram.jpg) top center no-repeat; }
+.industries .testimonial.ram .logo { width: 194px; border: 1px solid #ddd; background: #fff; padding: 10px; }
+.industries .testimonial.ram .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial.np .logo { width: 280px; }
+  .industries .testimonial.premier .logo { width: 250px; }
+  .industries .testimonial.ram .logo { width: 194px; }
+  .industries .testimonial .text { padding-top: 45px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+/*  ENVIRONMENTAL & NATURAL RESOURCES      **** VERSION 2 ****
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .environmental svg { fill: #5c7e09; height: 51px; width: 41px; margin-top: 15px; }
+.industries .environmental .icon-container { border-color: #5c7e09; }
+
+
+/* PAGE-SPECIFIC */
+.industries .environmental header.top { background: #07556c url(../img/industries/BG-env-new3.jpg) top center no-repeat; }
+.industries .environmental .features svg { fill: #3f5e00;}
+.industries .environmental .features .f1 svg { height: 82px; width: 129px; margin-left: -65px; }
+.industries .environmental .features .f2 svg { height: 125px; width: 118px; margin-left: -59px; }
+.industries .environmental .features .f3 svg { height: 106px; width: 148px; margin-left: -74px; }
+.industries .environmental .features .f4 svg { height: 100px; width: 108px; margin-left: -54px; }
+.industries .environmental .features-apps .apps li img { border-color: #3f5e00; }
+
+/* TESTIMONIALS */
+.industries .testimonial.dcq { background: url(../img/industries/BG-env-dcq2.jpg) top center no-repeat; }
+.industries .testimonial.dcq .logo { width: 300px; }
+.industries .testimonial.dcq .text { padding-top: 45px; }
+
+.industries .testimonial.dark-sky { background: url(../img/industries/BG-env-dark-sky.jpg) top center no-repeat; }
+.industries .testimonial.dark-sky .logo { width: 160px; }
+.industries .testimonial.dark-sky .text {  }
+
+.industries .testimonial.green-collar { background: url(../img/industries/BG-env-green-collar.jpg) top center no-repeat; }
+.industries .testimonial.green-collar .logo { padding-top: 110px; width: 400px; }
+.industries .testimonial.green-collar .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial.green-collar .logo { padding-top: 30px; width: 280px; }
+  .industries .testimonial.dark-sky .logo { width: 160px !important; }
+  .industries .testimonial .text { padding-top: 45px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+
+/* HUMANITARIAN ASSISTANCE, DISASTER RELIEF, & EMERGENCY MANAGEMENT
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .humanitarian header.top { background: #7b393a url(../img/industries/BG-hum.jpg) top center no-repeat; }
+.industries .humanitarian header svg,
+.industries .humanitarian svg { fill: #7b393a; height: 42px; width: 42px; margin-top: 21px; }
+.industries .humanitarian .icon-container { border-color: #7b393a; }
+
+/* "OLD" Page fixes  */
+.industries .humanitarian header.top .tagline, .industries .humanitarian header.top h1 { text-align: center; }
+.industries .humanitarian .what { text-align: center; }
+.industries .humanitarian .what p { float: none; margin: 0 auto 20px; }
+.industries .humanitarian .what a { display: inline-block; float: none; margin-bottom: 10px; }
+/* end OLD fixes */
+
+.industries .humanitarian .text h3 { color: #50090a; }
+
+.industries .humanitarian svg { fill: #50090a; }
+
+.industries .humanitarian .b1 { background:#fafafa; }
+.industries .humanitarian .b1 .text svg { height: 190px; width: 220px; }
+
+.industries .humanitarian .b2 .text svg .line1 { fill: #623a13; }
+.industries .humanitarian .b2 .text svg .line2 { fill: #8a5f36; }
+.industries .humanitarian .b2 .text svg .line3 { fill: #af8965; }
+.industries .humanitarian .b2 .text svg .line4 { fill: #d9c4b0; }
+
+.industries .humanitarian .b3 .text svg { height: 210px; width: 280px; }
+.industries .humanitarian .b3 .text svg .shape1 { fill: #335d69; }
+.industries .humanitarian .b3 .text svg .shape2 { fill: #103a48; }
+
+.industries .humanitarian .b4 .text svg { height: 190px; width: 200px; }
+
+.industries .humanitarian .b5 .text svg { height: 160px; width: 220px; }
+
+
+/* NON PROFITS & NGOs
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .non-profit header.top { background: #1d3664 url(../img/industries/BG-non.jpg) top center no-repeat; }
+.industries .non-profit header.top h1 span { text-transform: lowercase; }
+.industries .non-profit header svg,
+.industries .non-profit svg { fill: #1d3664; height: 46px; width: 53px; margin-top: 21px; }
+.industries .non-profit .icon-container { border-color: #1d3664; }
+
+.industries .non-profit .text h3 { color: #1d3664; }
+
+.industries .non-profit svg { fill: #1d3664; }
+
+.industries .non-profit .b1 { background:#fafafa; }
+.industries .non-profit .b1 .text svg { height: 190px; width: 290px; }
+
+.industries .non-profit .b2 .text svg { height: 220px; width: 240px; }
+
+.industries .non-profit .b3 .text svg { height: 250px; width: 140px; }
+.industries .non-profit .b3 .text svg .shape1 { fill: #1d3664; }
+.industries .non-profit .b3 .text svg .shape2 { fill: #000; }
+
+.industries .non-profit .b4 .text svg { height: 190px; width: 200px; }
+
+.industries .non-profit .b5 .text svg { height: 160px; width: 220px; }
+
+
+
+/* Oil & Gas
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .oil-and-gas svg { fill: #565d65; height: 51px; width: 46px; margin-top: 16px; }
+.industries .oil-and-gas .icon-container { border-color: #565d65; }
+
+/* PAGE-SPECIFIC */
+.industries .oil-and-gas header.top { background: #565d65 url(../img/industries/BG-oil-new.jpg) top center no-repeat; }
+.industries .oil-and-gas .features svg { fill: #565d65;}
+.industries .oil-and-gas .features .f1 svg { height: 110px; width: 129px; margin-left: -65px; }
+.industries .oil-and-gas .features .f2 svg { height: 120px; width: 100px; margin-left: -50px; }
+.industries .oil-and-gas .features .f3 svg { height: 130px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .oil-and-gas .features .f3 svg .shape1 { fill: #565d65; }
+.industries .oil-and-gas .features .f3 svg .shape2 { fill: #323e4c; }
+.industries .oil-and-gas .features .f4 svg { height: 94px; width: 156px; margin-left: -78px; }
+.industries .oil-and-gas .features-apps .apps li img { border-color: #565d65; }
+
+/* TESTIMONIALS */
+.industries .testimonial.rodriguez { background: url(../img/industries/BG-eng-rodriguez.jpg) top center no-repeat; }
+.industries .testimonial.rodriguez .logo { width: 240px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.rodriguez .text { padding-top: 20px; }
+
+.industries .testimonial.smec { background: url(../img/industries/BG-eng-smec.jpg) top center no-repeat; }
+.industries .testimonial.smec .logo { width: 240px; margin-top: 26px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.smec .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial .text { padding-top: 45px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+
+
+/* TRANSPORTATION & TRAFFIC      **** VERSION 2 ****
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .transportation svg { fill: #045a76; height: 55px; width: 41px; margin-top: 15px; }
+.industries .transportation .icon-container { border-color: #0c5972; }
+
+/* PAGE-SPECIFIC */
+.industries .transportation header.top { background: #578bc7 url(../img/industries/BG-tra-new2.jpg) top center no-repeat; }
+.industries .transportation .features svg { fill: #045a76;}
+.industries .transportation .features .f1 svg { height: 82px; width: 129px; margin-left: -65px; }
+.industries .transportation .features .f2 svg { height: 100px; width: 100px; margin-left: -50px; }
+.industries .transportation .features .f3 svg { height: 105px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .transportation .features .f4 svg { height: 94px; width: 108px; margin-left: -54px; }
+.industries .transportation .features-apps .apps li img { border-color: #045a76; }
+
+/* TESTIMONIALS */
+.industries .testimonial.victrack { background: url(../img/industries/BG-tra-victrack.jpg) top center no-repeat; }
+.industries .testimonial.victrack .logo { width: 300px; margin-top: 70px; text-align: center; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.victrack .text { padding-top: 10px; }
+
+.industries .testimonial.century { background: url(../img/industries/BG-tra-century.jpg) top center no-repeat; }
+.industries .testimonial.century .logo { width: 300px; margin-top: 78px; background:#fff; padding: 20px; border: 1px solid #ccc; }
+.industries .testimonial.century .text {  }
+
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial .text { padding-top: 45px; }
+  .industries .testimonial.victrack .logo, .industries .testimonial.century .logo { width: 240px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+/* WATER & SEWER
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .water svg { fill: #007090; height: 53px; width: 34px; margin-top: 16px; }
+.industries .water .icon-container { border-color: #007090; }
+
+/* PAGE-SPECIFIC */
+.industries .water header.top { background: #007090 url(../img/industries/BG-water.jpg) top center no-repeat; }
+.industries .water .features svg { fill: #007090;}
+.industries .water .features .f1 svg { height: 82px; width: 129px; margin-left: -65px; }
+.industries .water .features .f2 svg { height: 100px; width: 100px; margin-left: -50px; }
+.industries .water .features .f3 svg { height: 120px; width: 148px; margin-left: -74px; margin-bottom: -5px; }
+.industries .water .features .f4 svg { height: 105px; width: 108px; margin-left: -54px; }
+.industries .water .features-apps .apps li img { border-color: #007090; }
+
+/* TESTIMONIALS */
+.industries .testimonial.nestbuilders { background: url(../img/industries/BG-nestbuilders.jpg) top center no-repeat; }
+.industries .testimonial.nestbuilders .logo { width: 300px; margin-top: 45px; border: 1px solid #ccc; }
+.industries .testimonial.nestbuilders .text { padding-top: 10px; }
+
+.industries .testimonial.rodriguez .text { padding-top: 10px; }
+
+/* PAGE-SPECIFIC MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .testimonial .text { padding-top: 0; }
+}
+@media (max-width: 756px) {
+  .industries .testimonial .logo { float: none !important; margin: auto !important; }
+  .industries .testimonial.np .logo { width: 280px; }
+  .industries .testimonial.premier .logo { width: 250px; }
+  .industries .testimonial.ram .logo { width: 194px; }
+  .industries .testimonial .text { padding-top: 45px; }
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+/* Integrations (formerly PARTNERS): Arc2Earth
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .arc2earth img { max-width: 200px; }
+.industries .landing-arc2earth .banner { background: #003e7f; overflow: hidden; padding: 30px 0; }
+.industries .landing-arc2earth p { font-size:0.88888888888889em; line-height:1.66666666666667em; }
+.industries .landing-arc2earth .one .well { margin-bottom: 10px; }
+.industries .landing-arc2earth .one .well.resources { margin-bottom:40px; }
+.industries .landing-arc2earth .resources a { display:block; margin-bottom:20px; }
+.industries .landing-arc2earth .col1 { float:left; width:350px; margin-top:15px; }
+.industries .landing-arc2earth .col2 { float:left; margin-left:50px; width: 330px; }
+.industries .landing-arc2earth .col2 p { color: #fff; font-size: .875em; line-height: 21px; margin-top:5px; }
+.industries .landing-arc2earth .well img { float:left;  margin-right:25px; padding-top:14px; }
+
+
+/* Integrations (formerly PARTNERS): CartoDB
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .cartodb h1,
+.industries .cartodb h2,
+.industries .cartodb h3,
+.industries .cartodb h4 { text-align: center; }
+
+.industries .cartodb header.top { background: #046aaa url(../img/integrations/BG-cartodb.jpg) top center no-repeat; }
+.industries .cartodb header svg,
+.industries .cartodb svg { fill: #335f6d; height: 60px; margin-top: 12px; }
+.industries .cartodb svg path { fill: #fff; }
+.industries .cartodb .icon-container { border-color: #335f6d; }
+
+.industries .cartodb .complimentary-tech { text-align: center; }
+
+.industries .cartodb .complimentary-tech h2,
+.industries .cartodb .syncing h2 { font-size: 30px !important; }
+.industries .cartodb .complimentary-tech h3,
+.industries .cartodb .syncing h3{ font-size: 24px !important; }
+
+.industries .cartodb svg { fill: #335d69; }
+
+.industries .cartodb .b1 { background:#fafafa; }
+.industries .cartodb .b1 .text svg { height: 222px; width: 266px; }
+
+.industries .cartodb .b2 .text svg { }
+
+.industries .cartodb .b3 .text svg { height: 280px; width:; }
+.industries .cartodb .b3 .text svg .shape1 { fill: #335d69; }
+.industries .cartodb .b3 .text svg .shape2 { fill: #103a48; }
+
+.industries .cartodb .b4 .text svg { height: 220px; width: 340px; }
+.industries .cartodb .b5 .text svg { height: 240px; width: 250px; }
+
+.industries .cartodb .keys { background: #fff; padding: 30px 0 40px; text-align: center; }
+.industries .cartodb .keys section { position: relative; }
+.industries .cartodb .keys ul { margin: 0 auto; position: relative; }
+.industries .cartodb .keys li {
+  background: #fff;
+  border-top: 1px solid #bababa;
+  border-bottom: 1px solid #bababa;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 0;
+  position: relative;
+}
+.industries .cartodb .keys li.img { border: none; padding: 0; margin: 0; }
+.industries .cartodb .keys li img { vertical-align: bottom; }
+.industries .cartodb .keys li:nth-child(7),
+.industries .cartodb .keys li:nth-child(9) { height: 70px; margin-bottom: -5px; overflow: hidden; }
+.industries .cartodb .keys li:nth-child(7) img,
+.industries .cartodb .keys li:nth-child(9) img { position: relative; }
+.industries .cartodb .keys li:nth-child(7) span:after,
+.industries .cartodb .keys li:nth-child(9) span:after {
+  content: url(/assets/img/integrations/carto-key-3-cover.png);
+  position: absolute;
+  margin-top: -70px;
+}
+.industries .cartodb .keys li:nth-child(7) span:after { margin-top: -300px; }
+
+.industries .cartodb .syncing { padding: 40px 0; }
+.industries .cartodb .syncing .text li { overflow: hidden; margin-bottom: 10px; }
+.industries .cartodb .syncing .text li p { margin-top: 7px; margin-left: 46px; }
+.industries .cartodb .syncing .text li span {
+  background: url(../img/integrations/check.png) top left no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 36px;
+  width: 36px;
+  margin-right: 10px;
+}
+.industries .cartodb .syncing .text h3.webhooks { margin-top: 20px; }
+.industries .cartodb iframe { display: block; margin: 20px auto; }
+
+.industries .cartodb .vid { padding: 0px 0 30px; }
+.industries .cartodb .about-carto { color: #fff; background: #4896d5; border-top: 1px solid #4896d5; border-bottom: 1px solid #4896d5; padding: 60px 0; }
+.industries .cartodb .about-carto .about h3 { color: #fff; text-align: left; }
+.industries .cartodb .about-carto .cta { text-align: center; }
+.industries .cartodb .about-carto .cta h3 { color: #fff; }
+
+.industries .cartodb .learn-more { background: #fafafa; border-top: 1px solid #f1f1f1; border-bottom: 1px solid #f1f1f1; padding: 30px 0; text-align: center; }
+.industries .cartodb .learn-more p { margin-bottom: 0; }
+
+
+
+.industries .cartodb header.top,
+.industries .architecture header.top,
+.industries .construction header.top,
+.industries .education header.top,
+.industries .energy header.top,
+.industries .environmental header.top,
+.industries .humanitarian header.top,
+.industries .non-profit header.top,
+.industries .transportation header.top,
+.industries .water-resources header.top {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* Integrations (formerly PARTNERS): Zapier
+--------------------------------------------------------------------------------------------------------------------*/
+.industries .content.zapier .content { margin: 50px 0; }
+.industries .zapier section.narrow { width: 760px; margin-bottom: 20px; }
+.industries .zapier header.top { background: #858585 url(../img/integrations/icon-zapier-bg.png) top left repeat; }
+
+.industries .zapier header.top a { margin-top: 20px; }
+.industries .zapier .icon-container { border-color: #335; }
+.industries .zapier .icon-container img { width: 250px; }
+.industries .zapier .main-headline { padding-bottom: auto !important; }
+
+
+/* Zapier MEDIA QUERIES */
+@media (max-width: 978px) {
+  .industries .zapier section.narrow { width: auto; }
+  .industries .zapier header.top .page, .industries .cartodb header.top .page { padding-top: 45px; padding-bottom: 50px !important; }
+}
+@media (max-width: 756px) {
+  .industries .zapier section.narrow { width: auto; }
+}
+@media (max-width: 480px) {
+  .industries .zapier section.narrow { width: auto; }
+  .industries .zapier section, .industries .cartodb section { width: auto; }
+}
+@media (max-width: 320px) {
+}
+/*  END Media Queries  */
+
+
+
+
+/* MEDIA QUERIES
+--------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 320px) {
+  .industries .cartodb .keys li:nth-child(7) span:after,
+  .industries .cartodb .keys li:nth-child(9) span:after { display: none; }
+  .industries .cartodb .keys li:nth-child(9) img { margin-top: 0; }
+
+  .industries .one .well { width:240px; } /* Used by Arc2Earth partners page */
+  .industries .two .well { margin-right:0; width:240px; } /* Used by Arc2Earth partners page */
+
+  .industries .energy .b1 .text svg { margin-left: 70px; /* compensate for optical illusion of misalignment */ }
+
+  .industries .benefits .text { width: 300px; }
+  .industries .common-uses p.sub, .industries .common-uses li p { padding: 0 20px; }
+
+  .industries .what { text-align: center; }
+  .industries .what p { float: none; margin-bottom: 20px; width: auto; }
+  .industries .what a { display: inline-block; float: none; margin: 0 auto; }
+
+  .how h2, .featured-users h2, .deploy h2 { font-size: 48px; line-height: 48px; }
+  .featured-users li { float: none; width: 270px; padding:0 24px; margin: 0 auto 30px; }
+
+
+  .landing .landing-arc2earth .col2 { margin-left:0; width: 320px; }
+
+  .industries .cartodb .complimentary-tech { text-align: center; padding: 50px 0 30px; }
+  .industries .cartodb .complimentary-tech .text, .industries .cartodb .syncing .text {
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 20px 40px;
+    width: 240px;
+  }
+  .industries .cartodb .complimentary-tech .text img {
+    max-width: 57px;
+    margin: -20px 0;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  }
+  .industries .cartodb .complimentary-tech .ful,
+  .industries .cartodb .complimentary-tech .car { width: 196px; float: none; margin: 0 auto; }
+
+  .industries .cartodb .about-carto section { width: 280px; }
+  .industries .cartodb .about-carto .about { border-right: none; border-bottom: 1px solid #046aaa; float: none; padding-right: 0px; width: auto; padding-bottom: 40px; margin-bottom: 40px; }
+  .industries .cartodb .about-carto .cta { float: none; padding-left: 0px; width: auto; }
+
+  .industries .cartodb iframe { height: 156px; width: 280px; }
+
+  .industries .cartodb .keys img.key3 { max-width: 280px; }
+
+
+}
+
+@media (min-width: 480px) {
+  .industries .cartodb .keys li:nth-child(7) span:after,
+  .industries .cartodb .keys li:nth-child(9) span:after { display: block; }
+  .industries .cartodb .keys li:nth-child(9) img { margin-top: -135px; }
+
+  .industries .one .well { width:380px; } /* Used by Arc2Earth partners page */
+  .industries .two .well { margin-right:0; width:380px; } /* Used by Arc2Earth partners page */
+
+  .industries .energy .b1 .text svg { margin-left: 88px; /* compensate for optical illusion of misalignment */ }
+  .industries .benefits .text { width: 460px; }
+  .how h2, .featured-users h2, .deploy h2 { font-size: 60px; line-height: 60px; }
+  .industries .cartodb iframe { height: 256px; width: 460px; }
+  .industries .cartodb .keys img.key3 { max-width: 480px; }
+}
+
+@media (min-width: 756px) {
+  .industries .one .well { width:auto; } /* Used by Arc2Earth partners page */
+  .industries .two .well { margin-right:0; width:280px; } /* Used by Arc2Earth partners page */
+
+  .industries .energy .b1 .text svg { margin-left: 98px; /* compensate for optical illusion of misalignment */ }
+
+  .industries header.top .page {
+    padding-top: 55px;
+    padding-bottom: 60px;
+  }
+
+  .industries .landing-arc2earth .col2 { margin-left:50px; width: 330px; }
+  .industries .landing-arc2earth.content .page  { width: 740px !important; }
+
+  .industries header.main-headline { padding-top: 0; padding-bottom: 0; }
+  .industries .content .page { width: 740px; }
+
+  .industries .benefits .text { width: 900px; }
+  .industries .common-uses li p { padding: 0 150px; }
+
+  .landing .banner img { display:inline; margin:0; }
+  .landing .content .page { width:740px; }
+  .landing .content .banner .page { width:960px; }
+
+  .industries .cartodb .complimentary-tech { text-align: center; padding: 50px 0 30px; }
+  .industries .cartodb .complimentary-tech .text {
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 20px 40px;
+    width: 560px;
+  }
+  .industries .cartodb .complimentary-tech .text img { max-width: 57px; margin: -20px 0;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  .industries .cartodb .complimentary-tech .ful,
+  .industries .cartodb .complimentary-tech .car { width: 196px; }
+  .industries .cartodb .complimentary-tech .ful { float: left; }
+  .industries .cartodb .complimentary-tech .car { float: right; }
+
+  .industries .cartodb .syncing .text {
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 40px 90px;
+    width: 460px;
+  }
+
+  .industries .cartodb .about-carto section { width: 760px; }
+  .industries .cartodb .about-carto .about { border-right: 1px solid #046aaa; border-bottom: none; float: left; padding-right: 40px; width: 340px; padding-bottom: 0; margin-bottom: 0; }
+  .industries .cartodb .about-carto .cta { float: left; padding-left: 40px; width: 336px; }
+
+  .industries .cartodb iframe { height: 405px; width: 720px; }
+
+
+}
+
+@media (min-width: 978px) {
+  .industries .content .page { width: 960px; }
+  .featured-users li { float: left; width: 270px; padding:0 24px; margin: 0 auto; }
+  .industries .common-uses p.sub { padding: 0 200px; }
+  .industries .common-uses li p { padding: 0 250px; }
+
+  .industries .what { text-align: left; }
+  .industries .what p { float: left; margin-bottom: 0; width: 630px; }
+  .industries .what a { display: block; float: right; margin: -2px auto 0; }
+
+  .banner-text .left { width: 400px; }
+}

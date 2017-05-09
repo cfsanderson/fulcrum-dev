@@ -1,0 +1,119 @@
+.help section h2 { text-align: left; margin-bottom: 20px; }
+.help section h3 { font-size: 21px; text-align: left; }
+
+.help section ul li { padding-bottom: 6px; }
+.help section ul a { color: #666; }
+.help section ul a:hover { color: #3a98c3; }
+
+.help .col { float: left; margin-right: 40px; overflow: hidden; width: 460px; }
+.help .col.last { margin-right: 0; }
+
+/* App Gallery Index main-headline */
+.help .main-headline { background: #a8f0f7; overflow: hidden; padding: 0; }
+.help .main-headline .text { float: left; padding-top: 85px; text-align: left; width: 300px; }
+.help .main-headline .text span { bottom: -7px; font-size: 16px; font-weight: 200; position: relative; text-transform: uppercase; }
+.help .main-headline h1 { color: #000; font-size: 44px; text-align: left; }
+.help .main-headline p { color: #000; font-size: 18px; font-weight: 200; text-align: left; }
+.help .main-headline figure { float: right; margin-right: -55px; width: 703px; }
+.help .main-headline img { padding-top: 0; vertical-align: bottom; }
+
+/* Search Box (App Gallery-specific) */
+.help .help-search { background: #6ab6c6; padding: 20px 0 40px; }
+.help .help-search #search_input { width: inherit; }
+.help .help-search #search_results { left: auto; margin-left: auto; width: inherit; }
+
+
+@media (max-width: 978px) { 
+  .help .col { width: 340px; }
+  .help .main-headline .text { padding-top: 37px; }
+  .help .main-headline figure { width: 480px; }
+}
+@media (max-width: 756px) { 
+  .help .main-headline { padding: 30px 0 40px; }
+  .help .main-headline .text { float: none; padding-top: 0; text-align: center; width: auto; }
+  .help .main-headline h1 { line-height: 44px; margin: 10px 0; text-align: center; }
+  .help .main-headline p { text-align: center; }
+  .help .main-headline figure { display: none; }
+}
+@media (max-width: 480px) { 
+  .help .col { width: auto; margin-right: 0; }
+  .help .help-search #search_input { width: 100%; }
+}
+
+@media (max-width: 320px) { 
+}
+
+.help .guides, .docs .support { background: #f7f8e3; border-bottom: 1px solid #efe7ca; padding: 30px 0; overflow: hidden; }
+.help .guides img, .docs .support img { display: block; float: left; }
+.help .guides h3, .docs .support h3 { float: left; }
+.help .guides svg, .docs .support svg { display: block; float: left; fill: #ffc807; margin-right: 12px; margin-bottom: 0; width: 44px; height: 44px; }
+
+.docs .support { background: #e9e9e9; border-bottom: 1px solid #e0caca; border-top: 1px solid #e0caca; }
+.docs .support svg { fill: #ff0000; }
+
+.help .wrapper.guides { width: 50%; float: left; margin-left: -1px; /* allows center border */ }
+.help .wrapper.guides section { float: right; }
+.help .wrapper.guides section h3 { font-size: 18px; line-height: 21px; float: left; width: 260px; }
+.help .wrapper.guides section .btn { font-size: 14px; }
+.help .wrapper.guides section svg { margin-top: 3px; }
+
+.help .wrapper.guides.dev { background: #f3f3f3; border-bottom: 1px solid #e2e2e2; border-left: 1px solid #e2e2e2; width: 50%; float: right; }
+.help .wrapper.guides.dev section { float: left; }
+.help .wrapper.guides.dev section svg { fill: #f731b4; }
+
+@media (max-width: 978px) { 
+  .help .wrapper.guides { width: 100%; float: none; margin-left: 0; }
+  .help .wrapper.guides.dev { width: 100%; float: none; }
+  
+}
+@media (max-width: 756px) { 
+  .help .wrapper.guides { width: 100%; float: none; margin-left: 0; }
+  .help .wrapper.guides.dev { width: 100%; float: none; }
+  
+  .help .wrapper.guides section { float: none; }
+  .help .wrapper.guides.dev section { float: none; } 
+}
+@media (max-width: 480px) { 
+  .help .guides svg, .docs .support svg { margin-right: 0; width: 280px; height: 66px; margin-bottom: 10px; }
+  .help .wrapper.guides section h3 { text-align: center; width: 280px; }
+  .help .wrapper.guides section a { float: none; }
+  .help .wrapper.guides section { text-align: center; }
+}
+
+
+.help .common { margin-top: 30px; padding-bottom: 50px; border-bottom: 1px solid #f1f1f1; }
+.help .topics { margin-top: 50px; }
+.help .topics h3 { margin-bottom: 5px; }
+.help .topics ul { margin-bottom: 20px; }
+
+/* ----------------------------------------------------------------------------------------------------------
+Media Queries -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) { 
+  .help .guides .btn, .docs .support .btn { float: left; }
+  .help .wrapper.guides section .btn { margin-top: 25px; }
+}
+
+@media (min-width: 480px) {
+  .help .guides .btn, .docs .support .btn { float: right; }
+  .help .wrapper.guides section .btn { margin-top: 5px; }
+}
+
+@media (min-width: 756px) {
+
+  .help .wrapper.guides section h3 { font-size: 18px; line-height: 21px; float: left; width: auto; }
+  .help .wrapper.guides section { float: none; }
+  .help .wrapper.guides.dev section { float: none; } 
+  .help .guides h3, .docs .support h3 { float: left; padding-top: 13px; }
+  
+  
+}
+
+@media (min-width: 978px) { 
+  .help .wrapper.guides section { float: right; width: 480px; padding-right: 40px; }
+  .help .wrapper.guides.dev section { float: left; width: 520px; padding-left: 40px; }
+  .help .wrapper.guides section h3 { font-size: 18px; line-height: 21px; float: left; width: 260px; }
+  .help .guides h3, .docs .support h3 { float: left; padding-top: 5px; }
+}
+

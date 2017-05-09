@@ -1,0 +1,54 @@
+#has-grid .grid-item { width: 30%; margin: 1.5%; display: inline-block; vertical-align: top; overflow: hidden; text-align: center; min-height: 370px; background-color: #fff; position: relative;}
+#has-grid .grid-item span { height: 180px; width: 100%; overflow: hidden;}
+#has-grid .grid-item img { height: 180px;     max-width: none; margin: 0 -100% !important;}
+#has-grid .grid-item h2.title { font-size: 20px; line-height: 24px; color: #3a98c3; margin: 10px 0 0; padding: 0 20px; text-align: left; }
+#has-grid .grid-item .meta { font-size: 11px; line-height: 15px; text-align: left; padding: 0 20px; color: #999; margin: 10px 0;}
+
+/* Font changes for Case Studies index */
+.cases #has-grid .grid-item .meta, .uses #has-grid .grid-item .meta { font-size: 13px; line-height: 18px; }
+
+/* Grid item tweak for App Gallery index */
+.category-index #has-grid .grid-item { min-height: 300px; }
+
+/* Font changes for App Gallery index */
+.category-index #has-grid .grid-item .meta { font-size: inherit; line-height: inherit; }
+
+#has-grid .grid-item .category { font-size: 9px; text-transform: uppercase; line-height: 20px; text-align: left; padding: 0 20px; color: #999; margin: 20px 0 10px; font-weight: bold; position: absolute; bottom: 0;}
+#has-grid .grid-item .category a, #has-grid .grid-item .category span { color: #fff; height: auto; margin-right: 5px; border-radius: 15px; padding: 0px 15px; margin-bottom: 5px; display: inline-block; float: left;}
+
+@media (min-width: 320px) {
+  #has-grid .grid-item { width: 100%; margin: 10px 0; min-height: 430px; }
+  #has-grid .grid-item img { height: 250px; }
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 756px) {
+  #has-grid .grid-item { width: 46%; margin: 1.5%; min-height: 370px; }
+  #has-grid .grid-item img { height: 180px; }
+}
+
+@media (min-width: 978px) {
+  #has-grid .grid-item { width: 30%; }
+}
+
+/* BLOG CATEGORIES */
+.category .app-of-the-week{ background-color: #f7ac59; }
+.category .business{ background-color: #97c9ca; }
+.category .developers{ background-color: #ecda5d; }
+.category .events{ background-color: #bcc6df; }
+.category .customer-highlight{ background-color: #99d28e; }
+.category .tools{ background-color: #e67378; }
+.category .how-to{ background-color: #72d0f4; }
+.category .series { background-color: #8b4691; }
+.category .links { background-color: #f7ac59; }
+.category .features{ background-color: #bbd073; }
+.category .quick-tips{ background-color: #9ea6ad; }
+.category .team{ background-color: #f98962; }
+.category .allposts { background-color: #ccc;}
+.category .press { background-color: #90afdb;}
+.category .community { background-color: #de038e;}
+
+/* CASE STUDY CATEGORY */
+.category .general { background-color: #eee; }

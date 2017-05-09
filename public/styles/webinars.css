@@ -1,0 +1,144 @@
+.webinars .aux { border-top: 1px solid #f1f1f1; }
+
+.webinars .main-headline { background: #8bb9c9; margin-bottom: 40px; padding: 45px 0px 60px; }
+.webinars .main-headline h1 { color:#fff; font-size:2.75em; margin: 0; text-align: center; }
+.webinars .main-headline p { color:#fff; font-size: 1em; margin:0; padding: 0; }
+
+.webinars .body { padding-top: 20px; }
+.webinars article { border-bottom: 1px solid #e7e7e7; overflow: hidden; padding-bottom: 50px; margin-bottom: 50px; }
+.webinars article.last { border: none; margin-bottom: 0; padding-bottom: 0; }
+.webinars .date, .webinars .level, .webinars .details { float: left; }
+
+.webinars .date { width: 50px; }
+.webinars .level { padding: 0 20px; }
+.webinars .details { padding: 0 30px; }
+
+.webinars .date { border-right: 1px solid #e7e7e7; padding-right: 30px; text-align: center; }
+.webinars .date .day { color: #598c9f; font-size: 36px; line-height: 36px; }
+.webinars .date .month { color: #c6c6c6; font-size: 18px; text-transform: uppercase; }
+
+.webinars .level { border-right: 1px solid #e7e7e7; text-align: center; width: 88px; }
+.webinars .level .icon { 
+  margin: 0 auto;
+  text-align: center;
+}
+.webinars .level.basic .icon { 
+  background: #c7e383; 
+  border: 1px solid #b5d270;
+
+  border-radius:         21px; 
+  -moz-border-radius:    21px;
+  -webkit-border-radius: 21px;
+  
+  height: 40px;
+  width: 40px;
+}
+.webinars .level.intermediate .icon { 
+  background: #508ad8; 
+  border-color: #407ac9;  
+
+  border-radius:         3px; 
+  -moz-border-radius:    3px;
+  -webkit-border-radius: 3px;
+
+  height: 40px;
+  width: 40px;
+} 
+.webinars .level.advanced .icon.double { float: left; margin-left: 30px; } 
+.webinars .level.advanced .icon { 
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 20px solid #333;
+  position: relative;
+  top: -15px;
+}
+.webinars .advanced .icon:after {
+  content: '';
+  position: absolute;
+  left: -15px; top: 20px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 20px solid #333;
+}
+
+.webinars .level p { 
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.webinars .level.basic p { 
+  color: #abca5e;
+}
+.webinars .level.intermediate p { 
+  color: #2c74b7;
+}
+.webinars .level.advanced p { 
+  color: #434343;
+  margin-top: 10px;
+}
+.webinars .details {}
+.webinars .details h4 { color: #598c9f; font-family: "Lato"; font-weight: normal; }
+.webinars .details p { color: #838383; }
+
+.webinars article .btn { float: right; }
+
+@media only all and (max-width: 978px) {
+  .webinars .details p, .webinars .details h4 { width: 300px; }
+}
+
+@media only all and (max-width: 756px) {
+  .webinars .date, .webinars .level, .webinars .details { float: none; border-right: none; width: auto; padding: 0; margin-bottom: 15px; }
+
+  .webinars .date .day { font-size: 60px; line-height: 50px; }
+  .webinars .date .month { font-size: 30px; }
+  .webinars .level {}
+  .webinars .details h4, .webinars .details p { text-align: center; width: auto; }
+
+  .webinars .level p { font-size: 18px; }
+  
+  .webinars a.btn { float: none; }
+  
+  span.hs-cta-wrapper { display: block; text-align: center; }
+}
+
+@media only all and (max-width: 480px) {
+
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------
+Media Queries -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) { 
+  .services article { float: left; width: 300px; }
+  .services aside { background: #fff; border: 1px solid #eee; float: right; padding-left: 20px; padding-top: 10px; width: 300px; }
+
+  .services .offline-maps .sample iframe { height:300px; width:300px; }  
+}
+
+@media (min-width: 480px) {
+  .services article { float: left; width: 480px; }
+  .services aside { float: right; width: 480px; }
+
+  .services .offline-maps .sample iframe { height:350px; width:480px; }
+}
+
+@media (min-width: 756px) {
+  .services article { float: left; width: 400px; }
+  .services aside { float: right; width: 300px; }
+
+  .services .offline-maps .sample iframe { height:300px; width:400px; }
+}
+
+@media (min-width: 978px) { 
+  .services article { float: left; width: 600px; }
+  .services aside { float: right; width: 300px; }
+
+  .services .offline-maps .sample iframe { height:390px; width:600px; }
+}
+

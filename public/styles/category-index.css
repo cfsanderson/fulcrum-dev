@@ -1,0 +1,55 @@
+/* ----- `App Gallery
+----------------------------------------------------------------------------------------------------*/
+#gallery .main-headline { background:#8faf50; padding-top:20px; padding-bottom:45px; }
+#gallery .main-headline h1 { color:#fff; font-size:2.75em; }
+#gallery .main-headline p { color:#fff; font-size: 1em; margin:0; }
+
+/* App Gallery Index main-headline */
+.category-index #gallery .main-headline { background: #d7e1e5; overflow: hidden; padding: 0; }
+.category-index #gallery .main-headline .text { float: left; padding-top: 100px; text-align: left; width: 310px; }
+.category-index #gallery .main-headline .text span { bottom: -7px; font-size: 16px; font-weight: 200; position: relative; text-transform: uppercase; }
+.category-index #gallery .main-headline h1 { color: #000; font-size: 44px; text-align: left; }
+.category-index #gallery .main-headline p { color: #000; font-size: 18px; font-weight: 200; text-align: left; }
+.category-index #gallery .main-headline figure { float: right; width: 619px; }
+.category-index #gallery .main-headline img { padding-top: 15px; }
+
+/* Search Box (App Gallery-specific) */
+.category-index .app-search { background: #96a9b0; padding: 20px 0 40px; margin-bottom: 20px; }
+.category-index .app-search #search_input { width: inherit; }
+.category-index .app-search #search_results { left: auto; margin-left: auto; width: inherit; }
+
+.features-apps .apps { margin-top: 50px; }
+.features-apps .apps ul { margin-top: 40px; }
+.features-apps .apps li { float: left; height: 260px; width: 190px; margin: 0 25px; margin-bottom: 60px; }
+.features-apps .apps li img {
+  border-size: 2px;
+  border-style: solid;
+  border-color: #8faf50;
+  border-radius:         96px;
+  -moz-border-radius:    96px;
+  -webkit-border-radius: 96px;
+  width: 190px;
+}
+.features-apps .apps h4 { font-size: 20px; margin-top: 4px; text-align: center; }
+.features-apps .apps li p { text-align: center; }
+
+@media (max-width: 978px) {
+  #gallery .main-headline p { font-size:0.77777777777778em; }
+  .category-index #gallery .main-headline .text { padding-top: 45px; }
+  .category-index #gallery .main-headline figure { width: 419px; }
+  .category-index #gallery .main-headline img { padding-top: 15px; }
+}
+@media (max-width: 756px) {
+  #gallery .main-headline p { font-size:1em; }
+  .category-index #gallery .main-headline { padding: 30px 0 40px; }
+  .category-index #gallery .main-headline .text { float: none; padding-top: 0; text-align: center; width: auto; }
+  .category-index #gallery .main-headline h1 { line-height: 44px; margin: 10px 0; text-align: center; }
+  .category-index #gallery .main-headline p { text-align: center; }
+  .category-index #gallery .main-headline figure { display: none; }
+}
+@media (max-width: 480px) {
+  #gallery section { width: auto; }
+  .category-index .app-search #search_input { width: 100%; }
+  .features-apps .apps { width: auto; }
+  .features-apps .apps li { height: 340px; width: auto; }
+}

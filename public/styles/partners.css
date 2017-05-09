@@ -1,0 +1,152 @@
+.partners .main-headline {
+  background: #badae3;
+  background-image: -webkit-linear-gradient(163deg,#badae3 10%,#cfecf4 36%,#fff 70%);
+  background-image: -moz-linear-gradient(163deg,#badae3 10%,#cfecf4 36%,#fff 70%);
+  background-image: -o-linear-gradient(163deg,#badae3 10%,#cfecf4 36%,#fff 70%);
+  background-image: -ms-linear-gradient(163deg,#badae3 10%,#cfecf4 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#badae3 10%,#cfecf4 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.partners .main-headline h1 { color: #444; }
+.partners .main-headline p { color: #444; font-size: .875em; }
+
+.partners .banner { margin-bottom: 20px; padding: 45px 0px 45px; height: 390px; }
+.content.pprogram #about .page p { font-size: 21px; line-height: 42px; margin-bottom: 40px;}
+.content.pprogram .page p + ul { margin-top: -20px; }
+.content.pprogram .page.short-top { padding-top: 0 !important; margin-top: -20px; }
+.content.pprogram .page.short-top p {}
+.content.pprogram .page ul + h3 { margin-top: 40px; }
+
+#case ul li { font-size: 18px; line-height: 36px; list-style: outside disc; margin-bottom: 20px; margin-left: 20px; }
+
+.partners .pprogram .banner { margin-bottom: 0px; }
+.partners .pprogram p { font-size: 1em; }
+.partners .pprogram .right p { margin-bottom: 0;}
+
+.pprogram #about { background: #f4f4f4; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+.pprogram #about img {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 15px;
+}
+.main-image { margin: 0 auto; overflow: hidden; width: 900px; }
+.main-image.lead { margin-top: 50px; }
+.main-image img { border: 1px solid #aaa; float: left; width: 900px; }
+.main-image + .main-image { margin-top: 50px; }
+
+
+.partners .pprogram .caption { clear: both; display: block; font-size:0.72222222222222em; padding-top: 10px; }
+.partners .pprogram img.chart { padding-bottom:15px 0; }
+
+.partners .pprogram .sharing li:last-child { margin-right:0;}
+
+
+.partners section.intro, .partners section.quote, .partners section.apps, .partners section.tutorial { margin-top: 50px; margin-bottom: 50px;  }
+.partners section.intro { margin-top: 25px; }
+.partners section.tutorial { margin-bottom:0; }
+
+.partners .content { padding-bottom:0px; }
+.partners .pprogram.content { padding-bottom:0; }
+.partners .one img {
+  -webkit-box-shadow: 0px 1px 1px #888;
+  -moz-box-shadow: 0px 1px 1px #888;
+  box-shadow: 0px 1px 1px #888;
+ }
+.partners .watercolor .btn { color:#000; text-shadow:0 1px 0 #fff; }
+.partners .intro h2 { text-align: left; }
+.partners h3 { font-size: 44px; margin-bottom:15px; }
+.partners h4 { margin-bottom:10px; }
+
+.partners .banner h1 {
+  color: #fff;
+  font-size: 2.75em;
+  text-align: right;
+  margin-top: 50px;
+}
+.partners .banner img {
+  height: 300px;
+}
+.partners .banner p { color:#fff; margin-bottom:0; margin-top: 20px; text-align: right; width: 60%; }
+.partners .banner span { width: 60%; float: right; text-align: right; margin-top: 30px; }
+
+.partners-desc  { background: #eee; }
+.partners-desc p { margin: 0 auto; width: 75%; }
+
+/* About Page */
+.press .banner { background: url(../img/partners/bg-partners3.jpg) top center no-repeat; background-size: cover; }
+
+.press .banner h1, .press .banner p { color: #000; }
+.press #about, .press #partner-orgs { background: #fff; border-top: 1px solid #f2f2f2; border-bottom: 1px solid #f2f2f2; }
+.press #about .page, .press #partner-orgs .page { text-align: center; }
+.press #partner-orgs .page { width: 100%;}
+.press #partner-orgs img { max-width: 180px; max-height: 120px; vertical-align: middle;}
+.press #partner-orgs li { width: 33%; padding: 40px 20px;}
+.content.pprogram.press #about p{ margin-bottom: 40px; font-size: 18px; }
+
+.press #info li { font-size: 16px; line-height: 36px; width: 42%; vertical-align: top; margin: 2%;}
+.press #info li p { font-size: 16px; line-height: 36px; }
+.press #info li span { font-weight: bold;}
+.press #info li img { display: block; margin: 0 auto; height: 70px; }
+.press ul { overflow: hidden; text-align: center; margin-top: 35px; }
+.press li { display: inline-block; }
+
+.press section > .page { padding: 0; }
+
+@media only all and (max-width: 978px) {
+  .press #info li { width: 42%; margin: 2%; }
+}
+
+@media only all and (max-width: 756px) {
+  .press #info li { margin-left: 0; margin-bottom: 30px; width: 100%; }
+}
+@media only all and (max-width: 480px) {
+  .press #info li { margin-left: 0; width: 100%; }
+}
+
+.apply #native-form img { display: block; margin: 0 auto 30px; width: 100px; }
+
+.partners .banner h1 { margin-top: 50px; text-align: right; float: right; margin-right: 20px; }
+.partners .banner img { height: 300px; float: left; display: inline-block; margin: 0 ; }
+.partners .banner p { width: 60%; text-align: right; float: right; margin-right: 20px; }
+.partners .banner { height: 390px; }
+.partners .banner span { width: 60%; text-align: right; float: right; margin-right: 20px; }
+
+.partners .banner h1 { margin-bottom: 0; }
+
+.press #partner-orgs li { width: 33%; }
+
+/* ----------------------------------------------------------------------------------------------------------
+Media Queries -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 978px) {
+  .partners .banner img { height: 225px; }
+  .partners .banner { height: 315px; }
+  .partners .banner h1 { margin-top: 0px; }
+}
+@media (max-width: 756px) {
+  .partners .banner { height: 450px; }
+  .partners .banner p { width: 100%; text-align: center; font-size: 16px; margin-right: 0; margin-top: 0; }
+  .partners .banner h1 { margin-bottom: 15px; margin-top: 30px; text-align: center; margin-right: 0; }
+  .partners .banner img { height: 100px; text-align: center; display: block; margin: 0 auto;}
+  .partners .banner h1, .partners .banner img { float: none; }
+  .partners .banner span { width: 100%; text-align: center; margin-right: 0; }
+  
+  .press #partner-orgs li { width: 100%; }
+}
+@media (max-width: 480px) {
+  .partners .banner { height: 660px; }
+}
+@media (max-width: 320px) {
+}
+

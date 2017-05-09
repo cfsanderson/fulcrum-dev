@@ -1,0 +1,418 @@
+.fulcrum-live p { font-size: 1em; }
+
+/* main header section */
+
+.fulcrum-live .main-headline {
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(to bottom right, rgba(252, 140, 14, 0.7), rgba(251, 3, 0, 0.8), rgba(147, 6, 6, 0.8)),
+    url('/assets/img/fulcrum-live/fulcrum-live-globe-background-01.jpg')
+    center / cover
+    no-repeat;
+}
+
+.fulcrum-live .fulcrum-live-header-logo {
+  width: 33%;
+  padding-bottom: 20px;
+}
+
+.fulcrum-live .logo-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.fulcrum-live .fulcrum-live-cta,
+.fulcrum-live-cta-bottom {
+  font-size: 1.5em;
+}
+
+.fulcrum-live .inner-nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 85px;
+  max-width: 768px;
+  margin: auto;
+}
+
+.fulcrum-live .inner-nav a {
+  color: inherit;
+  font-family: "Open Sans Condensed";
+  font-size: 1.75em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fulcrum-live .inner-nav span { font-size: 2em; }
+
+.fulcrum-live .category-heading {
+  padding: 45px 0 10px;
+  text-align: left;
+}
+
+/* About section */
+
+.fulcrum-live .boston {
+  width: 100%;
+  height: 200px;
+  margin-top: 25px;
+  background: url('/assets/img/fulcrum-live/bostonseaside.jpg') center center no-repeat;
+}
+
+.fulcrum-live .boston h3,
+.boston p {
+  color: #fff;
+  padding: 20px;
+}
+
+/* schedule section */
+
+.fulcrum-live .upper {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.fulcrum-live .schedule {
+  margin: auto;
+  margin-bottom: 90px;
+  max-width: 960px;
+}
+
+.fulcrum-live .schedule h2,
+h3,
+p {
+  color: rgb(42, 42, 42);
+}
+
+.fulcrum-live .schedule h2,
+.all-speakers h2,
+.about-section h2,
+.location-section h2 { font-size: 2.5em; }
+
+.fulcrum-live .time-day h2 {
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  background: linear-gradient(to right, rgba(147, 6, 6, 0.8), rgba(251, 3, 0, 0.8), rgba(252, 140, 14, 0.7));
+}
+
+.fulcrum-live .time-block {
+  display: flex;
+  border-bottom: solid 1px rgb(42, 42, 42);
+}
+.fulcrum-live .time-block .description {
+  padding: 10px;
+}
+
+.fulcrum-live .time-block .description h3 {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.fulcrum-live .time-block .description p {
+  padding: 10px;
+}
+
+.fulcrum-live .time-range {
+  min-width: 175px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(42, 42, 42);
+  color: #fff;
+  font-family: "Open Sans Condensed";
+}
+
+.fulcrum-live .time-day h2 { color: #fff; }
+
+.fulcrum-live .time-range p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.fulcrum-live .middle {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/assets/img/fulcrum-live/fulcrum-live-globe-background-01.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+/* Speakers section */
+
+.fulcrum-live .gradient-layer {
+  background: linear-gradient(to top left, rgba(252, 140, 14, 0.7), rgba(251, 3, 0, 0.8), rgba(147, 6, 6, 0.8));
+  padding-bottom: 50px;
+}
+
+.fulcrum-live .all-speakers {
+  margin: auto;
+  max-width: 960px;
+}
+
+.fulcrum-live .all-speakers h2 {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 45px;
+}
+
+.fulcrum-live .all-speakers p { color: #fff; }
+
+.fulcrum-live .speaker img {
+  border-radius: 50%;
+  border: solid 3px #fff;
+  height: 150px;
+  width: 150px;
+}
+
+.fulcrum-live .speaker {
+  display: flex;
+  padding: 15px 0;
+}
+
+.fulcrum-live .speaker-bio {
+  padding-left: 45px;
+}
+
+.fulcrum-live .speaker-bio h4 {
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+/* Location section */
+
+.fulcrum-live .location-gradient { background-color: rgba(250, 250, 250, 0.75); }
+
+.fulcrum-live .location-section h2,
+h3,
+p {
+  color: rgb(42, 42, 42);
+  text-align: left;
+}
+
+.fulcrum-live .about-section, .location-section {
+  margin: auto;
+  max-width: 960px;
+}
+
+.fulcrum-live #hotel-map {
+  height: 400px;
+  width: 100%;
+  /*background: url('/assets/img/fulcrum-live/map.png') center center no-repeat;*/
+}
+
+.fulcrum-live .location {
+  padding: 45px 0;
+}
+
+.fulcrum-live .location h3 {
+  padding-bottom: 25px;
+}
+
+.fulcrum-live .location ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.fulcrum-live .location li {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-bottom: 25px;
+}
+
+.fulcrum-live .location li a {
+  padding: 25px 0 5px;
+}
+.fulcrum-live .register h3 { padding-bottom: 5px; }
+
+.fulcrum-live .cta-bottom {
+  text-align: center;
+  padding: 45px 0;
+}
+
+/* Footer */
+
+.fulcrum-live .landing-footer p {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+.fulcrum-live .triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 27px solid #f00;
+  margin: 0 auto 15px;
+}
+
+/* Social */
+
+section.share {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.landing .social-share { width: 100%; }
+
+.landing .social-share li {
+  float: left;
+  width: 20%;
+}
+
+.landing .social-share li a {
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 0 0 10px;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border-radius: 3px;
+  color: #fff !important;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  text-shadow: none;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.landing .social-share li a .fa {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.landing .social-share .tweet { background: #26c4f1; }
+.landing .social-share .fblike { background: #306199; }
+.landing .social-share .lishare { background: #007bb6; }
+.landing .social-share .plus { background: #e93f2e; }
+.landing .social-share .emailshare { background: #777; }
+
+/* end social */
+
+/* Media Queries */
+
+@media (max-width: 1030px) {
+  .fulcrum-live .upper { height: auto; }
+}
+
+@media (max-width: 978px) {
+  .fulcrum-live .logo-cta { flex-direction: column; }
+
+  .fulcrum-live .fulcrum-live-header-logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .fulcrum-live .fulcrum-live-cta,
+  .fulcrum-live-cta-bottom { width: 100%; }
+
+  .fulcrum-live .schedule,
+  .all-speakers,
+  .about-section,
+  .location-section {
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 756px) {
+  .fulcrum-live .main-headline h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .fulcrum-live .top-content {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .fulcrum-live .inner-nav {
+    padding: 25px 0;
+  }
+
+  .fulcrum-live .schedule,
+  .location-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 45px;
+  }
+
+  .about-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .fulcrum-live .schedule h2 { text-align: center; }
+
+  .fulcrum-live .all-speakers h2 { text-align: center; }
+
+  .fulcrum-live .about-section h2 { text-align: center; }
+
+  .fulcrum-live .location-section h2 { text-align: center; }
+
+  .fulcrum-live .all-speakers {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+
+  .fulcrum-live .speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .fulcrum-live .speaker-bio,
+  .location,
+  .register,
+  .about-section,
+  .location ul { padding: 5px 10%; }
+
+  .fulcrum-live .speaker-bio h4 { text-align: center; }
+
+  .fulcrum-live .speaker img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .fulcrum-live .location h3,
+  .register h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 626px) {
+  .fulcrum-live .time-block {
+    flex-direction: column;
+  }
+
+  .fulcrum-live .time-block .description {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .fulcrum-live .inner-nav a { font-size: 1.2em; }
+
+  .fulcrum-live .fulcrum-live-cta,
+  .fulcrum-live-cta-bottom {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 330px) {
+  .fulcrum-live .inner-nav a { font-size: 1em; }
+}

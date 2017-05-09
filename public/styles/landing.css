@@ -1,0 +1,104 @@
+.guide-to-data-collection { background: #fff; }
+.guide-to-data-collection .main-headline { background: #ffcc00; }
+.guide-to-data-collection .main-headline  h1 { font-size: 48px; }
+.guide-to-data-collection .main-headline  p { font-size: 16px; max-width: 600px; margin: 0 auto; }
+.guide-to-data-collection .upper { overflow: hidden; height: 560px; }
+.guide-to-data-collection .hero-mobile { display: none; }
+.guide-to-data-collection .hero-top { margin-bottom: -49px; margin-top: 30px; }
+.guide-to-data-collection .hero-image { text-align: center; position: absolute; left: 50%; margin-left: -229px; }
+.guide-to-data-collection .book-img figure img { width: 459px; }
+.guide-to-data-collection .contents { width: 280px; float: left; margin-left: 10%; position: relative; margin-top:30px; }
+.guide-to-data-collection .contents p,
+.guide-to-data-collection .contents li,
+.guide-to-data-collection label { font-size: 16px; }
+.guide-to-data-collection #native-form label { color: #8b8b8b; font-weight: 200; }
+.guide-to-data-collection .contents li { list-style: disc outside; margin-left: 20px; padding-bottom: 5px; }
+.guide-to-data-collection .download { float: right; width: 280px; position: relative; margin-top:30px; margin-right: 10%; }
+.guide-to-data-collection .download h2 { color: #00a2ff; }
+.guide-to-data-collection h2 { font-size: 24px; text-align: left; margin-bottom: 10px; }
+.guide-to-data-collection #success-message h2 { text-align: center; }
+.guide-to-data-collection #native-form { background: transparent; }
+.guide-to-data-collection #native-form #contact-form { margin-top: 0; }
+.guide-to-data-collection #native-form button { margin: 20px 0 0; width: 265px; }
+.guide-to-data-collection #native-form .field { margin-bottom: 7px; }
+.guide-to-data-collection .about { border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; padding: 40px 0; margin: 40px auto 20px; }
+.guide-to-data-collection .about ul { text-align: center; }
+.guide-to-data-collection .about li { display: inline-block; width: 230px; text-align: left; margin: 20px; }
+.guide-to-data-collection .about li img { float: left; width: 83px; margin-right: 10px; }
+.guide-to-data-collection .about li p { font-size: 12px; line-height: 14px; width: 270px; }
+.guide-to-data-collection .about li .name { font-size: 14px; font-weight: 700; }
+.guide-to-data-collection .about li .title { font-size: 13px; font-style: italic; display: block; font-weight: 200; margin-top: 2px; }
+.guide-to-data-collection .about h2 { text-align: center; }
+.guide-to-data-collection .landing-footer { text-align: center; }
+.guide-to-data-collection .landing-footer p { font-size: 12px; margin: 0; }
+.guide-to-data-collection .triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 27px solid #ff0000;
+  margin: 0 auto 15px;
+}
+
+/* Social */
+section.share { margin-bottom: 10px; width: 300px; }
+
+.landing .social-share { width: 100%;}
+.landing .social-share li { float: left; width: 20%;}
+.landing .social-share li a{
+  text-decoration: none!important;
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+    color: #fff!important;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(0,0,0,.08);
+    text-shadow: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.landing .social-share li a .fa { font-size: 20px; margin-top: 2px; }
+.landing .social-share .tweet { background: #26c4f1; }
+.landing .social-share .fblike { background: #306199; }
+.landing .social-share .lishare { background: #007bb6; }
+.landing .social-share .plus { background: #e93f2e; }
+.landing .social-share .emailshare { background: #777; }
+/* end social*/
+
+@media (max-width: 1230px) {
+  .guide-to-data-collection .contents { margin-left: 5%; }
+  .guide-to-data-collection .download { margin-right: 5%; }
+ }
+@media (max-width: 1030px) {
+  .guide-to-data-collection .upper { height: auto; }
+  .guide-to-data-collection .book-img figure img { width: 360px; }
+  .guide-to-data-collection .hero-image { margin-left: -180px; }
+  .guide-to-data-collection .contents { margin-left: 2%; }
+  .guide-to-data-collection .download { margin-right: 2%; }
+}
+
+@media (max-width: 978px) {
+}
+@media (max-width: 756px) {
+  .guide-to-data-collection .hero-mobile { display: block; margin-top: -40px; }
+  .guide-to-data-collection .book-img { display: none; }
+  .guide-to-data-collection .main-headline  h1 { font-size: 34px; line-height: 34px; }
+  .guide-to-data-collection .contents { margin-left: 4%; }
+  .guide-to-data-collection .download { margin-right: 4%; }
+}
+@media (max-width: 626px) {
+  .guide-to-data-collection .contents,
+  .guide-to-data-collection .download { width: 480px; float: none; margin: 40px auto 0; }
+  .guide-to-data-collection #native-form button { width: 90%; }
+}
+@media (max-width: 480px) {
+  .guide-to-data-collection .contents,
+  .guide-to-data-collection .download { width: 320px; }
+}
+@media (max-width: 320px) {
+}

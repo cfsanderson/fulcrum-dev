@@ -1,0 +1,6 @@
+.what-else { margin-bottom: 20px;}
+.features .content { padding-bottom: 0;}
+#industries h3 { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+#industries .square span { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+#industries li:hover .square span { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";}
+#industries li:hover h3 { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }

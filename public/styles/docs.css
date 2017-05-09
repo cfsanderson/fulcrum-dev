@@ -1,0 +1,617 @@
+.docs h1 { font-size: 2em;   /* 32px/16px */ }
+.docs h2 { font-size: 1.5em;     /* 24px/16px */ }
+.docs h3 { font-size: 1.25em;  /* 20px/16px */ }
+.docs h4 { font-size: 1em;   /* 16px/16px */ text-align: left; }
+.docs h5 { font-size: .75em;  /* 12px/16px */ }
+.docs h6 { font-size: .5em;     /* 8px/16px */ }
+
+.docs .docs-content h2, .docs .docs-content h3, .docs .docs-content h4, .docs .docs-content h5, .docs .docs-content h6 { }
+
+.docs .docs-content h1 {
+  margin-bottom:20px;
+}
+.docs .docs-content h2 {
+  margin-bottom:15px;
+}
+.docs .docs-content h3 {
+  margin-bottom:10px;
+}
+.docs .docs-content h4 {
+  margin-bottom:10px;
+}
+
+.docs .content p { font-size: 1em; line-height: 1.75em; }
+
+.docs a { color:#3a98c3; }
+.docs a:hover { color:#ff0000; }
+.docs .mobile-nav a { color:#454545; }
+
+.docs .well {
+  box-shadow:         0px 1px 1px #ccc;
+  -webkit-box-shadow: 0px 1px 1px #ccc;
+  -moz-box-shadow:    0px 1px 1px #ccc;
+}
+.subnav {
+  background-color: #fff;
+}
+.subnav.well {
+ float:none;
+ margin-top: 8px;
+ padding: 0;
+}
+.subnav span {
+  text-align: left;
+  font-size: 1.75em;
+  font-family: 'Open Sans Condensed';
+  color: #555;
+  padding: 12px 0 12px 20px;
+}
+.subnav ul {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.subnav li {
+  display: inline;
+}
+.subnav li a {
+  padding: 8px 15px;
+  color: #000;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  font-size:0.88888888888889em;
+}
+.subnav li a.active {
+  background-color: #f2f2f2;
+  color: #000;
+}
+.subnav li a:hover {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.docs-sidebar.well, .docs-content.well { margin-top: 8px;}
+.docs h2 {
+  text-align: left;
+}
+
+.docs .docs-sidebar {
+  float: left;
+  width: 215px;
+  padding: 20px;
+  padding-right: 15px;
+  background-color: #fff;
+  border-top: none;
+}
+
+.docs .docs-sidebar li {
+  margin: 2px 0;
+}
+
+.docs .docs-sidebar li a {
+  display: block;
+  padding: 6px 8px;
+  color: black;
+  border-radius: 6px;
+  font-size: .825em;
+}
+
+.docs .docs-sidebar li.active a {
+  background-color: #f2f2f2;
+}
+
+.docs .docs-sidebar li a:hover {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+.docs .docs-sidebar h2.title {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+.docs .docs-sidebar h2 {
+  text-align: left;
+  margin: 10px 0;
+  font-size:1.375em;
+}
+
+.docs .docs-sidebar ul {
+  margin-left: 0px;
+}
+
+.docs .docs-sidebar .small {
+  margin-top: 20px;
+  font-size: 10pt;
+}
+
+.docs .docs-content {
+  width: 662px;
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.docs .docs-content h1 {
+  text-align: left;
+}
+.docs .docs-content h3, .docs .docs-content h4 {
+  text-align: left;
+}
+.docs .docs-content ol li { list-style:decimal; margin-left:24px; }
+.docs .docs-content ol li, .docs .docs-content ul li { padding-bottom:10px; }
+.docs .docs-content ul {
+  margin: 0;
+}
+.docs .docs-content ul li {
+  padding-left: 0;
+  list-style: outside disc;
+  margin: 0 0 5px 20px;
+}
+.docs .docs-content ul li > ul { margin-top: 10px; }
+.docs .docs-content p {
+  margin-bottom:20px;
+}
+.docs .docs-content pre {
+  line-height: 1.5em;
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin: 10px 0;
+}
+.docs .docs-content .float-right {
+  float: right;
+  margin-left: 10px;
+  width: inherit;
+}
+.docs .docs-content .float-left {
+  float: left;
+  margin-right: 10px;
+}
+.docs .docs-content .full {
+  margin: 15px 0;
+  text-align: center;
+}
+.docs .docs-content .image-caption {
+  display: block;
+  text-align: center;
+}
+.docs .docs-content img {
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+.docs .docs-content p img { margin: 15px auto; }
+.docs .docs-content .centered { text-align: center; }
+
+.docs .docs-content iframe { margin-bottom: 15px; }
+
+.docs table {
+  width: 100%;
+  margin: 15px 0;
+}
+.docs table th { font-weight: 900; }
+.docs table th, .docs table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  line-height: 1.5em;
+}
+.docs table td:first-child {
+  width: 25%;
+}
+.docs .gist-file table {
+  margin: 0;
+}
+.docs .gist-file table th, .docs .gist-file table td {
+  border: none;
+}
+.docs .gist-data table td {
+  font-size: .75em !important;
+}
+.docs .gist-data table td:first-child {
+  width: auto;
+  font-size: 1em;
+}
+.docs .gist-data table.lines td.line-numbers {
+  line-height: 1.5;
+}
+
+.docs table td.field-type {
+  width: 25%;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.docs table td:first-child {
+  white-space: nowrap;
+}
+.docs table td:first-child em {
+  color: red;
+  font-style: normal;
+}
+
+.docs .feedback {
+  font-style: italic;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.docs .sharing { width: 100%; overflow: hidden; margin-top: 20px; }
+.docs .sharing p { padding-bottom:5px; }
+.docs .sharing ul {
+  margin-left: 0;
+  margin-bottom: 30px;
+  list-style: none;
+  position: relative;
+  float: left;
+  display: block;
+  left: 50%;
+}
+.docs .sharing li {
+  display: block;
+  float: left;
+  margin: 0 !important;
+  list-style: none !important;
+  margin-right: 10px !important;
+  margin-right: 10px !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  right: 50%;
+}
+.docs .sharing li:first-child { margin-right: -20px !important; }
+.docs .sharing li:last-child { margin-right:0 !important; }
+
+.docs .feedback iframe {
+  vertical-align: top;
+}
+#backtotop{
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    padding-top: 5px;
+    position: relative;
+    bottom: -10px;
+}
+
+
+/* Docs-v3 */
+  .docs .answer { background: #fff; /* Helps images with white BGs not look so wonky */ }
+  .docs .answer h3 { text-align: left; }
+  .docs .answer .page { overflow: hidden; padding: 0; }
+  .docs .answer.guides .page { overflow: visible; padding: 0; }
+  .docs .answer aside h3 { margin-bottom: 10px; text-align: left; }
+  .docs .answer aside li { font-size: 14px; padding-bottom: 15px; }
+  .docs .answer aside li a { color: #666; }
+  .docs .answer aside li a:hover { color: #3a98c3; }
+
+  .docs .answer .hbspt-form { margin-top: 50px; }
+  .docs .answer .hs_submit .actions { padding-top: 0 !important; margin-top: 0 !important; }
+  .docs .answer .hs_submit .actions input { width: auto !important; }
+  .docs .answer .hs_submit .actions .submit { margin-left: 0; }
+  
+  /* Pulled from hubspot CSS to deal with footer form breaking with 2 forms on a page (GH issue #515) */
+  .docs .answer .input input {  
+    max-width: 500px;
+    width: 90%;  
+    -moz-transition: border .2s linear,box-shadow .2s linear;
+    -o-transition: border .2s linear,box-shadow .2s linear;
+    -webkit-transition: border .2s linear,box-shadow .2s linear;
+    transition: border .2s linear,box-shadow .2s linear;
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    display: inline-block;
+    width: 210px;
+    height: 18px;
+    padding: 4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666;
+    border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+  }
+  .hs-form.stacked .field { margin-bottom: 18px; }
+  .aux .hs-form.stacked .field { margin-bottom: 0 !important; }
+  
+  .answer .actions .btn { 
+    float: left;
+    clear: both;
+    margin-left: 18px !important;  
+    margin-bottom: 25px;
+    height: auto !important; 
+  }
+
+  .docs .answer .hbspt-form textarea {
+    -moz-transition: border .2s linear,box-shadow .2s linear;
+    -o-transition: border .2s linear,box-shadow .2s linear;
+    -webkit-transition: border .2s linear,box-shadow .2s linear;
+    transition: border .2s linear,box-shadow .2s linear;
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+    display: inline-block;
+    width: 210px;
+    height: 18px;
+    padding: 4px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666;
+    border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;    
+  }
+  .docs .answer .hbspt-form textarea { height: 110px; box-sizing: border-box; max-width: 500px; width: 90%; }
+  
+  .docs .answer .hs_submit .actions label {
+    display: block;
+    float: none;
+    width: auto;
+    font-weight: 900;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 0;
+    margin-bottom: 4px;  
+  }
+
+  .docs .answer .page section ul { margin: 0; margin-left: 30px; margin-bottom: 15px; font-size: 0.875em; }
+  .docs .answer .page section ul li { list-style: outside disc; margin-bottom: 10px; padding-left: 0; line-height: 1.5em; }
+
+  .docs .answer .page section ol { margin: 0; margin-left: 30px; margin-bottom: 15px; font-size: 0.875em; }
+  .docs .answer .page section ol li { list-style: outside decimal; margin-bottom: 10px; padding-left: 0; line-height: 1.5em; }
+
+/*  V3 Media Queries  */
+@media (max-width: 756px) {
+  .answer .actions .btn { margin-bottom: 50px; }
+  .answer .hs_email.field.hs-form-field { text-align: left; }
+  .docs .answer aside { border-top: 1px solid #eee !important; padding-top: 40px; }
+  .docs .answer.guides aside { border-top: none !important; border-bottom: 1px solid #eee !important; padding-top: 0; margin-bottom: 40px !important; padding-bottom: 40px; }
+}
+@media (max-width: 480px) {
+  .docs { word-wrap: break-word; }
+}
+@media (max-width: 320px) {
+}
+/* END V3 Media Queries */
+
+
+
+/* GUIDES */
+.docs .answer.guides .page section { width: 700px; }
+.docs .answer.guides .page aside { width: 200px; }
+.docs .content section h2:first-of-type { border:none; padding:0; margin:0; }
+.docs .content section h2, 
+.docs .content section p + h2:first-of-type { border-top: 1px solid #eee; padding-top: 20px; margin-top: 30px; }
+
+#sidebar.sticky { float: none; position: fixed; top: 20px; z-index: 6; margin-left: 760px; width: 200px; }
+
+/*  Guides Media Queries  */
+@media (max-width: 978px) {
+  .docs .answer.guides .page section { width: 460px; }
+  .docs .answer.guides .page aside { width: 200px; }
+  #sidebar.sticky { margin-left: 499px; width: 200px; }
+}
+@media (max-width: 756px) {
+  .docs .answer.guides .page section { width: 400px; }
+  .docs .answer.guides .page aside { width: 400px;}
+  #sidebar.sticky { position: static; margin-left: auto; width: 400px; }
+}
+@media (max-width: 480px) {
+  .docs .answer.guides .page section { width: 280px; }
+  .docs .answer.guides .page aside { width: 280px; }
+  #sidebar.sticky { width: 280px; }
+}
+@media (max-width: 320px) {
+}
+/* END Guides Media Queries */
+
+/* LEGAL */
+.docs .answer.legal .main-headline { 
+  background: #444;
+  background-image: -webkit-linear-gradient(287deg,#444 10%,#666 36%,#fff 70%);
+  background-image: -moz-linear-gradient(287deg,#444 10%,#666 36%,#fff 70%);
+  background-image: -o-linear-gradient(287deg,#444 10%,#666 36%,#fff 70%);
+  background-image: -ms-linear-gradient(287deg,#444 10%,#666 36%,#fff 70%);
+  background-image: linear-gradient(163deg,#444 10%,#666 36%,#fff 70%);
+  -webkit-background-size: 100% 1100px;
+  -moz-background-size: 100% 1100px;
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+  padding: 25px 0 45px;
+}
+.docs .legal .menu ul { text-align: center; }
+.docs .legal .menu ul li { display: inline-block; padding: 5px 10px 0; }
+
+/* END LEGAL*/
+
+
+/* ----------------------------------------------------------------------------------------------------------
+Media Queries -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) {
+
+  .docs .answer .main-headline { background:#bde8ef; border-bottom: 1px solid #a2e0da; padding-top:20px; padding-bottom:45px; margin-bottom: 30px; }
+  .docs .answer .main-headline .title { font-family: "Open Sans Condensed", helvetica, arial, sans-serif; font-weight:900; color:#000; font-size:2.75em; text-align: center; }
+  .docs .answer .main-headline p { color:#000; font-size: 1em; margin:0; line-height: 1.5em; }
+
+  .docs .answer h1.question { font-size: 30px; text-align: left; line-height: 30px; margin-bottom: 20px; }
+
+  .docs .answer .page { width: auto; }
+  .docs .answer .page section { float: none; width: 280px; }
+  .docs .answer .page aside { border: none; margin-left: 0; margin: 0 auto; padding-left: 0; width: 280px }
+  .docs .answer .page section iframe { height: 180px; width: 280px; }
+
+    .subnav li {
+        display: inline-block;
+        width: 42%;
+        text-align: center;
+        margin: 8px;
+    }
+
+    .subnav li a {
+        padding: 8px 10px;
+        width: 93%;
+        background: #f2f2f2;
+        display: block;
+        margin: 0 3px;
+    }
+    .subnav li a.active, .subnav li a:hover {
+        background: #cecece;
+    }
+    .subnav span{
+        display: none;
+    }
+    .subnav ul {
+        float: left;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .docs .docs-sidebar{
+        width: 240px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 20px;
+    }
+    .docs .docs-content{
+        width: 240px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /*nav ul     { display: none; }
+    nav h2     { display: none; }
+    nav select { display: inline-block; }*/
+    nav h2     { display: block; }
+    nav ul{
+        display: block;
+    }
+
+    .devnote{
+        display: none;
+    }
+    .leaflet-container {
+        width: 280px !important;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 480px) {
+  .docs .answer .page section, .docs .answer .page aside { float: none; width: 440px; }
+  .docs .answer .page section iframe { height: 270px; width: 440px; }
+
+    .subnav li {
+        display: inline;
+        width: auto;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .subnav li a {
+        padding: 8px 10px;
+        width: auto;
+        background: none;
+        display: inline;
+        margin: 0 ;
+    }
+    .subnav li a.active, .subnav li a:hover {
+        background: #f2f2f2;
+    }
+
+    .subnav span{
+        display: none;
+    }
+    .subnav ul {
+        float: left;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .docs .docs-sidebar{
+        width: 440px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 20px;
+    }
+    .docs .docs-content{
+        width: 440px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .leaflet-container {
+        width: 430px !important;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 756px) {
+
+  .docs .answer .main-headline .title { font-size:3em;}
+  .docs .answer .main-headline p { font-size:0.88888888888889em; }
+
+  .docs .answer .page { width: 730px; }
+  .docs .answer .page section { float: left; width: 400px; }
+  .docs .answer .page aside { border-left: 1px solid #e2e2e2; float: right; margin-left: 28px; padding-left: 30px; width: 270px; }
+  .docs .answer .page section iframe { height: 225px; width: 400px;  }
+
+    .docs .docs-sidebar{
+        width: 215px;
+        padding-right: 15px;
+    }
+    .subnav span{
+        display: block;
+    }
+    .subnav ul {
+        float: right;
+        margin-top: 20px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .docs .docs-content{
+        width: 430px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    nav h2     { display: block; }
+    nav ul{
+        display: block;
+    }
+    .devnote{
+        display: block;
+    }
+    #postclick{
+        display: none;
+    }
+    #backtotop{
+        display: none;
+    }
+
+}
+@media (min-width: 978px) {
+    .docs .docs-sidebar{
+        width: 215px;
+    }
+    .docs .docs-content{
+        width: 662px;
+        margin-left: 8px;
+    }
+    .leaflet-container {
+        width: 650px !important;
+        margin: 0 auto;
+    }
+
+  .docs .answer .page { width: 960px; }
+  .docs .answer .page section { float: left; width: 600px; }
+  .docs .answer .page aside { border-left: 1px solid #e2e2e2; float: right; margin-left: 28px; padding-left: 30px; width: 300px; }
+  .docs .answer .page section iframe { height: 338px; width: 600px; }
+
+}
